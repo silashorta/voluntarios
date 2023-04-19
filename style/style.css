@@ -1,0 +1,52 @@
+.form__escala {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__escala input {
+    margin: 1em 0;
+    padding: 1em 1em;
+    border-radius: 1em;
+}
+
+.divSelectEscala,
+.divSelectCancoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.divSelectEscala select,
+.divSelectEscala button,
+.divSelectCancoes select,
+.divSelectCancoes button {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#adicionarVoluntario,
+#adicionarCancoes {
+    text-align: center;
+    width: 55px;
+    margin-top: 2em;
+}
+
+#removeCancoes,
+#removeVoluntario {
+    text-align: center;
+    width: 55px;
+    margin-top: 1em;
+}
+
+#cancao,
+#voluntario {
+    display: flex;
+}
+
+#novoSelectCancoes,
+#novoSelect {
+    max-width: 100%;
+    padding: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}

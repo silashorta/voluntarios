@@ -1,0 +1,25 @@
+.navbar{
+    background-color: black;
+    height: 70px;
+}
+.navbar a,
+.navbar button{
+    color: #dadada;
+}
+.navbar a:hover,
+.navbar button:hover{
+    color: #fff;
+    font-size: 1.05em;
+    transition: all 0.1s;
+}
+
+#navbarNavDropdown{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width: 768px)  {
+    #navbarNavDropdown{
+        display: inline-flex;
+    }
+}
