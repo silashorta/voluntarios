@@ -1,5 +1,15 @@
 const integrantes = [
     {
+        "id": 0,
+        "nome": "",
+        "sobrenome": "",
+        "posicao": "",
+        "categoria": "",
+        "categoria2": "",
+        "nascimento": "",
+        "telefone": ""
+    },
+    {
         "id": 1,
         "nome": "Abner",
         "sobrenome": "Domingos",

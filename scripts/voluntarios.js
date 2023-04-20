@@ -11,19 +11,36 @@ function insereDados() {
     const firstRow = table.insertRow();
     firstRow.insertAdjacentHTML('beforeend', '<th>Nome</th>');
     firstRow.insertAdjacentHTML('beforeend', '<th>Categoria</th>');
+    firstRow.insertAdjacentHTML('beforeend', '<th>Visualizar</th>');
+    firstRow.insertAdjacentHTML('beforeend', '<th>Editar</th>');
+    firstRow.insertAdjacentHTML('beforeend', '<th>Excluir</th>');
 
     for (let i = 0; i < integrantes.length; i++) {
         const row = table.insertRow();
         const nomeCell = row.insertCell();
         const categoriaCell = row.insertCell();
+        const botaoModal = row.insertCell()
+        const botaoEdit = row.insertCell();
+        const botaoExclui = row.insertCell()
 
         nomeCell.innerHTML = `${integrantes[i].nome} ${integrantes[i].sobrenome}`;
+
         if (integrantes[i].categoria2 !== "") {
             categoriaCell.innerHTML = `${integrantes[i].categoria} e ${integrantes[i].categoria2}`
         } else {
             categoriaCell.innerHTML = `${integrantes[i].categoria}`
         }
+
+        if (integrantes[i].nome === "") {
+            row.style.display = "none";
+        }
+
+        botaoEdit.innerHTML = `<button class="btn"><img class="icones__voluntarios" src="../icon/pen-to-square-regular.svg"></button>`
+        botaoExclui.innerHTML = `<button class="btn"><img class="icones__voluntarios" src="../icon/trash-can-regular.svg"></button>`
+        botaoModal.innerHTML = `<button class="btn"><img class="icones__voluntarios" src="../icon/square-minus-regular.svg"></button>`
+
     }
+
 }
 
 
@@ -33,12 +50,12 @@ botaoLimpar.addEventListener('click', (e) => {
     e.preventDefault()
     limpaDados()
 })
+
 function limpaDados() {
     insereDados()
     const input = document.querySelector('#input');
     input.value = ""
 }
-
 
 //FUNÇÃO PESQUISAR VOLUNTÁRIO
 const botaoPesquisar = document.querySelector('#input__pesquisar')
@@ -46,6 +63,7 @@ botaoPesquisar.addEventListener('click', (e) => {
     e.preventDefault()
     pesquisar()
 })
+
 function pesquisar() {
     const input = document.querySelector('#input');
     const nome = input.value.toLowerCase();
@@ -66,11 +84,18 @@ function insereDadosFiltrados(filtrado) {
     const firstRow = table.insertRow();
     firstRow.insertAdjacentHTML('beforeend', '<th>Nome</th>');
     firstRow.insertAdjacentHTML('beforeend', '<th>Categoria</th>');
+    firstRow.insertAdjacentHTML('beforeend', '<th>Visualizar</th>');
+    firstRow.insertAdjacentHTML('beforeend', '<th>Editar</th>');
+    firstRow.insertAdjacentHTML('beforeend', '<th>Excluir</th>');
 
     for (let i = 0; i < filtrado.length; i++) {
         const row = table.insertRow();
         const nomeCell = row.insertCell();
         const categoriaCell = row.insertCell();
+
+        const botaoModal = row.insertCell()
+        const botaoEdit = row.insertCell();
+        const botaoExclui = row.insertCell()
 
         nomeCell.innerHTML = `${filtrado[i].nome} ${filtrado[i].sobrenome}`;
         if (filtrado[i].categoria2 !== "") {
@@ -78,5 +103,15 @@ function insereDadosFiltrados(filtrado) {
         } else {
             categoriaCell.innerHTML = filtrado[i].categoria
         }
+
+        botaoEdit.innerHTML = `<button class="btn"><img class="icones__voluntarios" src="../icon/pen-to-square-regular.svg"></button>`
+        botaoExclui.innerHTML = `<button class="btn"><img class="icones__voluntarios" src="../icon/trash-can-regular.svg"></button>`
+        botaoModal.innerHTML = `<button class="btn"><img class="icones__voluntarios" src="../icon/square-minus-regular.svg"></button>`
+
+        if (filtrado[i].nome === "") {
+            row.style.display = "none";
+        }
     }
+
+
 }

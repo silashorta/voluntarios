@@ -16,6 +16,7 @@ function addSelect() {
     const novoSelect = document.createElement('select');
     novoSelect.id = 'novoSelect';
     novoSelect.classList.add('divSelectEscala')
+    novoSelect.classList.add('form-select')
     const removeVoluntario = document.createElement('button')
     removeVoluntario.id = 'removeVoluntario'
     removeVoluntario.classList.add('btn')
@@ -57,6 +58,7 @@ function btnAddCancoes() {
     const novoSelectCancoes = document.createElement('select');
     novoSelectCancoes.id = 'novoSelectCancoes';
     novoSelectCancoes.classList.add('divSelectEscala');
+    novoSelectCancoes.classList.add('form-select');
     const removeCancoes = document.createElement('button');
     removeCancoes.id = 'removeCancoes'
     removeCancoes.classList.add('btn')

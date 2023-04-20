@@ -63,3 +63,18 @@
     margin-top: 1em;
 
 }
+
+#input__limpar,
+#input__pesquisar{
+    width: 50px
+}
+
+#voluntarios__search{
+    margin: 1em;
+    width: 90%;
+}
+
+.icones__voluntarios{
+    width: 20px;
+    height: 20px,
+}
