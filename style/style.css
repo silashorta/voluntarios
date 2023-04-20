@@ -1,3 +1,17 @@
+@import url(variaveis.css);
+
+#menu{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+#menu a{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+#menu__logo{
+    width: 50px;
+}
+
 .form__escala {
     display: flex;
     flex-direction: column;
@@ -5,7 +19,6 @@
 
 .form__escala input {
     margin: 1em 0;
-    padding: 1em 1em;
     border-radius: 1em;
 }
 
@@ -27,14 +40,14 @@
 #adicionarVoluntario,
 #adicionarCancoes {
     text-align: center;
-    width: 55px;
+    width: 45px;
     margin-top: 2em;
 }
 
 #removeCancoes,
 #removeVoluntario {
     text-align: center;
-    width: 55px;
+    width: 45px;
     margin-top: 1em;
 }
 
@@ -46,7 +59,7 @@
 #novoSelectCancoes,
 #novoSelect {
     max-width: 100%;
-    padding: 1em;
     margin-right: 1em;
     margin-top: 1em;
+
 }

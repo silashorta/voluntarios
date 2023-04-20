@@ -25,7 +25,7 @@ function addSelect() {
 
     for (let i = 0; i < integrantes.length; i++) {
         const option = document.createElement('option');
-        option.value = integrantes[i].nome;
+        option.value = `${integrantes[i].nome} ${integrantes[i].sobrenome}`;
         option.textContent = `${integrantes[i].nome} ${integrantes[i].sobrenome}`;
         novoSelect.appendChild(option);
     }
@@ -66,7 +66,7 @@ function btnAddCancoes() {
 
     for (let i = 0; i < cancoes.length; i++) {
         const optionCancoes = document.createElement('option');
-        optionCancoes.value = cancoes[i].id;
+        optionCancoes.value = cancoes[i].titulo;
         optionCancoes.textContent = cancoes[i].titulo;
         novoSelectCancoes.appendChild(optionCancoes);
     }
@@ -84,7 +84,57 @@ function btnAddCancoes() {
     divSelectCancoes.insertBefore(novoDivCancoes, document.querySelector('#adicionarCancoes'));
 }
 
-const botaoEnviarEscala = document.querySelector('.botaoEnviar')
-botaoEnviarEscala.addEventListener('click', function (event) {
-    event.preventDefault();
+//FUNÇÃO ENVIAR ESCALA
+const titulo = document.querySelector('#titulo')
+const data = document.querySelector('#data')
+const horario = document.querySelector('#horario')
+const descricao = document.querySelector('#descricao')
+
+const botaoEnviaEscala = document.querySelector('#botaoEnviaEscala')
+const tituloModal = document.querySelector('#escala__titulo')
+const dataModal = document.querySelector('#escala__data')
+const horarioModal = document.querySelector('#escala__horario')
+const descricaoModal = document.querySelector('#escala__descricao')
+const participantesModal = document.querySelector('#escala__participantes')
+const cancoesModal = document.querySelector('#escala__cancoes')
+
+
+document.querySelector('#staticBackdrop').addEventListener('shown.bs.modal', function () {
+
 })
+
+botaoEnviaEscala.addEventListener('click', () => {
+    enviaModal()
+})
+function enviaModal() {
+    tituloModal.innerHTML = titulo.value
+    dataModal.innerHTML = data.value
+    horarioModal.innerHTML = horario.value
+    descricaoModal.innerHTML = descricao.value
+
+    // Seleciona os selects criados dinamicamente
+    const selectsParticipantes = document.querySelectorAll('#novoSelect')
+    // Cria um array para armazenar as opções selecionadas
+    const optionsParticipantes = [];
+    // Percorre os selects e adiciona as opções selecionadas no array
+    selectsParticipantes.forEach(select => {
+        const opcaoSelecionada = select.value;
+        if (opcaoSelecionada) {
+            optionsParticipantes.push(opcaoSelecionada);
+        }
+    });
+    participantesModal.innerHTML = `${optionsParticipantes.join(`<br>`)}`
+    
+    // Seleciona os selects criados dinamicamente
+    const selectsCancoes = document.querySelectorAll('#novoSelectCancoes')
+    // Cria um array para armazenar as opções selecionadas
+    const optionsCancoes = [];
+    // Percorre os selects e adiciona as opções selecionadas no array
+    selectsCancoes.forEach(select => {
+        const cancaoSelecionada = select.value;
+        if (cancaoSelecionada) {
+            optionsCancoes.push(cancaoSelecionada);
+        }
+    });
+    cancoesModal.innerHTML = `${optionsCancoes.join(`<br>`)}`
+}
