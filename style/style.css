@@ -78,3 +78,43 @@
     width: 20px;
     height: 20px,
 }
+
+.linha{
+    width: 100%;
+    border-bottom: 1px solid var(--cinza);
+}
+
+#idTitulo{
+    font-size: large;
+}
+#col1,
+#col2,
+#col3{
+    width: 33%;
+}
+
+#col3{
+    text-align: center;
+}
+
+.linha:hover{
+    background-color: #a9a9a969;
+    transition: all 0.15s;
+}
+
+.subtitulo{
+    color: var(--preto);
+    font-size: 15px;
+    font-style: italic;
+}
+
+#row{
+    display: flex;
+}
+
+.footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--opensans);
+    height: 200px;
+}

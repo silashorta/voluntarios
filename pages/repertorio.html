@@ -39,7 +39,7 @@
   </header>
   <main>
     <h1 class="h1 my-5 ms-3">Repertório</h1>
-    <div class="input-group" id="repertorio__search">
+    <div class="input-group container-fluid" id="repertorio__search">
       <input type="text" class="form-control" id="input" placeholder=""
         aria-label="Example text with two button addons">
       <button class="btn btn-outline-secondary" id="input__limpar" type="submit"><img src="../icon/xmark-solid.svg"
@@ -49,12 +49,12 @@
     </div>
 
     <div>
-      <table class="table table-hover mt-4">
+      <table class="container table table-hover mt-4">
       </table>
     </div>
 
     <div class="d-flex justify-content-end">
-      <button class="btn btn-outline-primary m-4" id="novo" data-bs-toggle="modal" data-bs-target="#exampleModal">+</button>
+      <button class="btn btn-primary my-5 mx-4 sticky-bottom" id="novo" data-bs-toggle="modal" data-bs-target="#exampleModal">+</button>
     </div>
 
     <!-- Modal -->
@@ -104,6 +104,12 @@
         </div>
       </div>
     </div>
+
+    <footer class="footer">
+      <section>
+        <h2>IGREJA UNITED</h2>
+      </section>
+    </footer>
 
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
