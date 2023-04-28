@@ -87,10 +87,17 @@
 #idTitulo{
     font-size: large;
 }
-#col1,
-#col2,
+
+#col1{
+    width: 50%;
+}
+
+#col2{
+    width: 40%;
+}
+
 #col3{
-    width: 33%;
+    width: 10%;
 }
 
 #col3{

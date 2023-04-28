@@ -92,8 +92,8 @@ function insereDados() {
         botaoModal.innerHTML = `<button class="btn"><img class="icones__voluntarios" id="visualiza" src="../icon/trash-can-regular.svg"></button>`
 
 
-        if (tituloCell.textContent === " " || tituloCell.textContent === " ()") {
-            tituloCell.parentNode.style.display = 'none';
+        if (tituloCell.textContent === " ") {
+            row.style.display = 'none';
           }
 
 
@@ -104,20 +104,6 @@ function insereDados() {
             modal.classList.toggle('d-block')
             console.log(visualiza)
         })
-
-        /*         table.appendChild(modal)
-                modal.setAttribute("colspan", "11")
-                modal.style.display = 'none'
-                modal.innerHTML = `
-                <p><strong>#id:</strong> ${cancoes[i].id}</p>
-                <p><strong>Título:</strong> ${cancoes[i].titulo}</p>
-                <p><strong>Subtítulo:</strong> ${cancoes[i].subtitulo}</p>
-                <p><strong>Intérprete:</strong> ${cancoes[i].interprete}</p>
-                <p><strong>Tom Feminino:</strong> ${cancoes[i].tomFeminino}</p>
-                <p><strong>Tom Masculino:</strong> ${cancoes[i].tomMasculino}</p>
-                <p><strong>Andamento:</strong> ${cancoes[i].andamento}</p>
-                <p><strong>Compasso:</strong> ${cancoes[i].compasso}</p>
-                ` */
 
     }
 
