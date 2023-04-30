@@ -79,33 +79,9 @@
     height: 20px,
 }
 
-.linha{
-    width: 100%;
-    border-bottom: 1px solid var(--cinza);
-}
 
-#idTitulo{
-    font-size: large;
-}
-
-#col1{
-    width: 50%;
-}
-
-#col2{
-    width: 40%;
-}
-
-#col3{
-    width: 10%;
-}
-
-#col3{
-    text-align: center;
-}
-
-.linha:hover{
-    background-color: #a9a9a969;
+.accordion-item:hover{
+    background-color: #a9a9a927;
     transition: all 0.15s;
 }
 
@@ -117,6 +93,14 @@
 
 #row{
     display: flex;
+}
+
+.iconYoutube{
+    width: 40px;
+}
+
+.iconSpotify{
+    width: 30px
 }
 
 .footer{
