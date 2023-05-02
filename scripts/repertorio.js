@@ -9,99 +9,13 @@ function insereDados() {
     table.innerHTML = ""
 
     for (let i = 0; i < cancoes.length; i++) {
-        /*         const row = document.createElement('div')
-                row.className = 'row linha '
-                row.id = 'row'
-                table.appendChild(row)
-        
-                const col1 = document.createElement('div')
-                row.className = 'linha'
-                col1.id = 'col1'
-                row.appendChild(col1)
-        
-                const col2 = document.createElement('div')
-                row.className = 'linha'
-                col2.id = 'col2'
-                row.appendChild(col2)
-        
-                const col3 = document.createElement('div')
-                row.className = 'linha'
-                col3.id = 'col3'
-                row.appendChild(col3)
-        
-                const idCell = document.createElement('div')
-                idCell.className = ''
-                idCell.id = "idCell"
-                col1.appendChild(idCell)
-                idCell.innerHTML = `#<strong>${cancoes[i].id}</strong>`;
-        
-                const tituloCell = document.createElement('div');
-                tituloCell.className = '';
-                tituloCell.id = 'idTitulo';
-                col1.appendChild(tituloCell);
-        
-                if (cancoes[i].titulo === '') {
-                    row.style.display = 'none';
-                } else {
-                    tituloCell.innerHTML = `<strong>${cancoes[i].titulo}</strong> 
-                                        <p class="subtitulo">${cancoes[i].subtitulo}</p>`;
-                }
-        
-        
-                const interpreteCell = document.createElement('div')
-                interpreteCell.className = ''
-                interpreteCell.id = "idInterprete"
-                col1.appendChild(interpreteCell)
-                interpreteCell.innerHTML = `<em>${cancoes[i].interprete}</em>`;
-        
-                const tomFemininoCell = document.createElement('div')
-                tomFemininoCell.className = ''
-                tomFemininoCell.id = "idTomFeminino"
-                col2.appendChild(tomFemininoCell)
-                tomFemininoCell.innerHTML = `<span><strong>Tom Feminino: </strong></span>${cancoes[i].tomFeminino}`;
-        
-                const tomMasculinoCell = document.createElement('div')
-                tomMasculinoCell.className = ''
-                tomMasculinoCell.id = "idTomMasculino"
-                col2.appendChild(tomMasculinoCell)
-                tomMasculinoCell.innerHTML = `<span><strong>Tom Masculino: </strong></span>${cancoes[i].tomMasculino}`;
-        
-                const andamentoCell = document.createElement('div')
-                andamentoCell.className = ''
-                andamentoCell.id = "idAndamento"
-                col2.appendChild(andamentoCell)
-                andamentoCell.innerHTML = `<strong>BPM</strong>: ${cancoes[i].andamento}`;
-        
-                const compassoCell = document.createElement('div')
-                compassoCell.className = ''
-                compassoCell.id = "idCompasso"
-                col2.appendChild(compassoCell)
-                compassoCell.innerHTML = `<strong>Compasso</strong>: ${cancoes[i].compasso}`;
-        
-                const botaoEdit = document.createElement('div')
-                botaoEdit.className = ''
-                botaoEdit.id = "idEdit"
-                col3.appendChild(botaoEdit)
-                botaoEdit.innerHTML = `<button class="btn"><img class="icones__voluntarios" id="edita" src="../icon/square-minus-regular.svg"></button>`
-        
-                const botaoExclui = document.createElement('div')
-                botaoExclui.className = ''
-                botaoExclui.id = "idExclui"
-                col3.appendChild(botaoExclui)
-                botaoExclui.innerHTML = `<button class="btn"><img class="icones__voluntarios" id="exclui" src="../icon/pen-to-square-regular.svg"></button>`
-        
-                const botaoModal = document.createElement('div')
-                botaoModal.className = ''
-                botaoModal.id = "idVisualiza"
-                col3.appendChild(botaoModal)
-                botaoModal.innerHTML = `<button class="btn"><img class="icones__voluntarios" id="visualiza" src="../icon/trash-can-regular.svg"></button>` */
 
         const row = document.createElement('div')
         row.className = 'row'
         row.id = 'row'
         table.appendChild(row)
         row.innerHTML = `
-        <div class="accordion container" id="accordionExample">
+        <div class="accordion container my-1" id="accordionExample">
             <div class="accordion-item ">
             <h2 class="accordion-header">
                 <button class="accordion-button bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${cancoes[i].id}" aria-expanded="false" aria-controls="collapse${cancoes[i].id}">
@@ -134,6 +48,12 @@ function insereDados() {
                     <hr>
                     <div>
                         ${cancoes[i].cifra}
+                    </div>
+                    <hr>
+                    <div>
+                    <button class="btn"><img class="icones__voluntarios" src="../icon/file-arrow-down-solid.svg"></button>
+                    <button class="btn"><img class="icones__voluntarios" src="../icon/pen-to-square-regular.svg"></button>
+                    <button class="btn"><img class="icones__voluntarios" src="../icon/trash-can-regular.svg"></button>
                     </div>
                 </div>
             </div>
@@ -188,101 +108,55 @@ function pesquisar() {
 function insereDadosFiltrados(filtrado) {
 
     for (let i = 0; i < filtrado.length; i++) {
+
         const row = document.createElement('div')
-        row.className = 'row linha '
+        row.className = 'row'
         row.id = 'row'
         table.appendChild(row)
-
-        const col1 = document.createElement('div')
-        row.className = 'linha'
-        col1.id = 'col1'
-        row.appendChild(col1)
-
-        const col2 = document.createElement('div')
-        row.className = 'linha'
-        col2.id = 'col2'
-        row.appendChild(col2)
-
-        const col3 = document.createElement('div')
-        row.className = 'linha'
-        col3.id = 'col3'
-        row.appendChild(col3)
-
-
-        const idCell = document.createElement('div')
-        idCell.className = ''
-        idCell.id = "idCell"
-        col1.appendChild(idCell)
-        idCell.innerHTML = `#<strong>${filtrado[i].id}</strong>`;
-
-        const tituloCell = document.createElement('div')
-        tituloCell.className = ''
-        tituloCell.id = "idTitulo"
-        col1.appendChild(tituloCell)
-        tituloCell.innerHTML = `<strong>${filtrado[i].titulo}</strong> 
-                                    <p class="subtitulo">${filtrado[i].subtitulo}</p>`;
-
-        const interpreteCell = document.createElement('div')
-        interpreteCell.className = ''
-        interpreteCell.id = "idInterprete"
-        col1.appendChild(interpreteCell)
-        interpreteCell.innerHTML = `<em>${filtrado[i].interprete}</em>`;
-
-        const tomFemininoCell = document.createElement('div')
-        tomFemininoCell.className = ''
-        tomFemininoCell.id = "idTomFeminino"
-        col2.appendChild(tomFemininoCell)
-        tomFemininoCell.innerHTML = `<span><strong>Tom Feminino: </strong></span>${filtrado[i].tomFeminino}`;
-
-        const tomMasculinoCell = document.createElement('div')
-        tomMasculinoCell.className = ''
-        tomMasculinoCell.id = "idTomMasculino"
-        col2.appendChild(tomMasculinoCell)
-        tomMasculinoCell.innerHTML = `<span><strong>Tom Masculino: </strong></span>${filtrado[i].tomMasculino}`;
-
-        const andamentoCell = document.createElement('div')
-        andamentoCell.className = ''
-        andamentoCell.id = "idAndamento"
-        col2.appendChild(andamentoCell)
-        andamentoCell.innerHTML = `<strong>BPM</strong>: ${filtrado[i].andamento}`;
-
-        const compassoCell = document.createElement('div')
-        compassoCell.className = ''
-        compassoCell.id = "idCompasso"
-        col2.appendChild(compassoCell)
-        compassoCell.innerHTML = `<strong>Compasso</strong>: ${filtrado[i].compasso}`;
-
-        const botaoEdit = document.createElement('div')
-        botaoEdit.className = ''
-        botaoEdit.id = "idEdit"
-        col3.appendChild(botaoEdit)
-        botaoEdit.innerHTML = `<button class="btn"><img class="icones__voluntarios" id="edita" src="../icon/square-minus-regular.svg"></button>`
-
-        const botaoExclui = document.createElement('div')
-        botaoExclui.className = ''
-        botaoExclui.id = "idExclui"
-        col3.appendChild(botaoExclui)
-        botaoExclui.innerHTML = `<button class="btn"><img class="icones__voluntarios" id="exclui" src="../icon/pen-to-square-regular.svg"></button>`
-
-        const botaoModal = document.createElement('div')
-        botaoModal.className = ''
-        botaoModal.id = "idVisualiza"
-        col3.appendChild(botaoModal)
-        botaoModal.innerHTML = `<button class="btn"><img class="icones__voluntarios" id="visualiza" src="../icon/trash-can-regular.svg"></button>`
-
-
-        if (tituloCell.textContent === " ") {
-            row.style.display = 'none';
-        }
-
-
-        const visualiza = document.querySelector('#visualiza')
-        botaoModal.addEventListener('click', (e) => {
-            e.preventDefault()
-            visualiza.style.transform = 'rotate(90deg)';
-            modal.classList.toggle('d-block')
-            console.log(visualiza)
-        })
+        row.innerHTML = `
+        <div class="accordion container" id="accordionExample">
+            <div class="accordion-item ">
+            <h2 class="accordion-header">
+                <button class="accordion-button bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${filtrado[i].id}" aria-expanded="false" aria-controls="collapse${filtrado[i].id}">
+                <div><strong id="idTitulo">#${filtrado[i].id} ${filtrado[i].titulo}</strong><div>
+                <div><em>${filtrado[i].subtitulo}</em><div>
+                </button>
+            </h2>
+            <div id="collapse${filtrado[i].id}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-light">
+                    <div class="d-flex">
+                        <div class="col">
+                            <p><em>${filtrado[i].interprete}</em></p>
+                            <div>
+                                <div class="">
+                                    <a href="${filtrado[i].linkYoutube}" target="blank"><img class="iconYoutube" src="../icon/youtube.png" alt="ícone Youtube"></img> ${filtrado[i].titulo}</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <p>Tom Feminino: ${filtrado[i].tomFeminino}</p>
+                            <p>Tom Masculino: ${filtrado[i].tomMasculino}</p>
+                            <p>BPM: ${filtrado[i].andamento}</p>
+                            <p>Compasso: ${filtrado[i].compasso}</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Tags:</p>
+                    </div>
+                    <hr>
+                    <div>
+                        ${filtrado[i].cifra}
+                    </div>
+                    <hr>
+                    <div>
+                    <button class="btn"><img class="icones__voluntarios" src="../icon/file-arrow-down-solid.svg"></button>
+                    <button class="btn"><img class="icones__voluntarios" src="../icon/pen-to-square-regular.svg"></button>
+                    <button class="btn"><img class="icones__voluntarios" src="../icon/trash-can-regular.svg"></button>
+                    </div>
+                </div>
+            </div>
+        </div>`
 
     }
 

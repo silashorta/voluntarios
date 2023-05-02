@@ -526,61 +526,61 @@ const cancoes = [
     "compasso": "4/4",
     "linkYoutube": `https://www.youtube.com/watch?v=YyFd_dXy494`,
     "cifra": `<pre>
-    <span>INTRO:</span> <span class="cifra">C</span> <span class="cifra">A</span>m7 <span class="cifra">E</span>m7 <span class="cifra">D</span>
+    <span>INTRO:</span> <span class="cifra"><span class="">C</span> <span class="">A</span>m7 <span class="">E</span>m7 <span class="">D</span></span>
     
-                    <span class="cifra">G</span>
+                    <span class="cifra"><span class="">G</span></span>
     O fogo não me queima Nas águas não vou afundar
-            <span class="cifra">C</span>7M
+            <span class="cifra"><span class="">C</span>7M</span>
     Pois estás comigo Não estou sozinho
-                    <span class="cifra">G</span>
+                    <span class="cifra"><span class="">G</span></span>
     Eu estou guardado No esconderijo
-            <span class="cifra">C</span>7M
+            <span class="cifra"><span class="">C</span>7M</span>
     Não estou sozinho Tu estás comigo
     
-    <span class="cifra">C</span>7M           <span class="cifra">D</span>             <span class="cifra">E</span>m7
+    <span class="cifra"><span class="">C</span>7M           <span class="">D</span>             <span class="">E</span>m7</span>
     Temer por quê? Se eu estou
-                            <span class="cifra">G</span>/<span class="cifra">B</span>
+                            <span class="cifra"><span class="">G</span>/<span class="">B</span></span>
     Guardado por quem nunca Perdeu batalhas
-    <span class="cifra">C</span>7M       <span class="cifra">D</span>
+    <span class="cifra"><span class="">C</span>7M       <span class="">D</span></span>
     Seu nome é Jeová Jireh
-                <span class="cifra">G</span>
+                <span><span class="">G</span></span>
     Irás prover de novo Eu creio em Ti
     
-    <span class="cifra">C</span>                 <span class="cifra">D</span>
+    <span class="cifra"><span class="">C</span>                 <span class="">D</span></span>
     Haja o que houver Venha o que vier
-            <span class="cifra">G</span>4         <span class="cifra">G</span>      <span class="cifra">D</span>/<span class="cifra">G</span>     <span class="cifra">G</span>
+            <span class="cifra"><span class="">G</span>4         <span class="">G</span>      <span class="">D</span>/<span class="">G</span>     <span class="">G</span></span>
     Irás prover de novo Eu creio em Ti
-            <span class="cifra">C</span>                <span class="cifra">D</span>
+            <span class="cifra"><span class="">C</span>                <span class="">D</span></span>
     Eu não vivo do que vejo Vivo do que creio
-            <span class="cifra">G</span>4         <span class="cifra">G</span>      <span class="cifra">D</span>/G     <span class="cifra">G</span>
+            <span class="cifra"><span class="">G</span>4         <span class="">G</span>      <span class="">D</span>/G     <span class="">G</span></span>
     Irás prover de novo Eu creio em Ti
     
-      <span class="cifra">C</span>  <span class="cifra">D</span>  <span class="cifra">E</span>m7
+      <span class="cifra"><span class="">C</span>  <span class="">D</span>  <span class="">E</span>m7</span>
     (Oh, oh oh)
-    <span class="cifra">G</span>/<span class="cifra">B</span>
+    <span class="cifra"><span class="">G</span>/<span class="">B</span></span>
     (Oh, oh oh)
     
-    <span class="cifra">C</span>7M
+    <span class="cifra"><span class="">C</span>7M</span>
     A tempestade
-        <span class="cifra">D</span>
+        <span class="cifra"><span class="">D</span></span>
     E o vento forte
-    <span class="cifra">E</span>m7                    <span class="cifra">G</span>/<span class="cifra">B</span>
+    <span class="cifra"><span class="">E</span>m7                    <span class="">G</span>/<span class="">B</span></span>
     Não vão roubar a minha fé
-                <span class="cifra">C</span>7M
+                <span class="cifra"><span class="">C</span>7M</span>
     Em Ti, meu Deus
     
-    <span class="cifra">C</span>7M
+    <span class="cifra"><span class="">C</span>7M</span>
     A tempestade
-        <span class="cifra">D</span>
+        <span class="cifra"><span class="">D</span></span>
     E o vento forte
-    <span class="cifra">E</span>m7                    <span class="cifra">G</span>/<span class="cifra">B</span>
+    <span class="cifra"><span class="">E</span>m7                    <span class="">G</span>/<span class="">B</span></span>
     Não vão roubar a minha fé
-                <span class="cifra">C</span>7M
+                <span class="cifra"><span class="">C</span>7M</span>
     Em Ti, meu Deus
     
-                <span class="cifra">D</span>
+                <span class="cifra"><span class="">D</span></span>
     Em Ti, meu Deus
-                <span class="cifra">E</span>m7     <span class="cifra">G</span>/<span class="cifra">B</span>
+                <span class="cifra"><span class="">E</span>m7     <span class="">G</span>/<span class="">B</span></span>
     Em Ti, meu Deus
     </pre>`
   },
@@ -714,7 +714,51 @@ const cancoes = [
     "andamento": 62,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=Z6cONvRUFZQ",
-    "cifra": ""
+    "cifra": `<pre class="mt-5">
+INTRO: <span class="cifra">Bb C Am7 Bb</span>
+
+              <span class="cifra">Bb</span>
+Eu poderia estar
+                    <span class="cifra">C</span>
+Em qualquer outro lugar
+                  <span class="cifra">F/A</span>
+Mas Tua glória me atraiu
+                Bb
+Tua presença me atraiu
+
+                <span class="cifra">Bb</span>
+Tentei me esconder
+                  <span class="cifra">C</span>
+Por medo de não viver
+                  <span class="cifra">F/A</span>
+Mas Tua glória me atraiu
+                <span class="cifra">Bb</span>
+Tua presença me atraiu
+
+        <span class="cifra">Bb</span>
+É que a sarça pegou fogo e não se consumiu
+    <span class="cifra">C</span>
+E a voz que saiu dela um dia me atraiu
+        <span class="cifra">F/A</span>
+E o meu coração queimou até que descobriu
+        <span class="cifra">Dm7                      C</span>
+Que um dia com Tua glória vale mais que mil
+<span class="cifra">Bb</span>
+É que a sarça pegou fogo e não se consumiu
+    <span class="cifra">C</span>
+E a voz que saiu dela um dia me atraiu
+        <span class="cifra">F/A</span>
+E o meu coração queimou até que descobriu
+        <span class="cifra">Dm7</span>
+Que um dia com Tua glória
+    <span class="cifra">C                      Bb  C/Bb  Bb</span>
+Um dia com Tua glória vale mais que mil
+
+<span class="cifra">Bb            C</span>
+Atraído pela Tua presença
+<span class="cifra">Dm7                Am7</span>
+Não me vejo sem a Tua presença
+</pre>`
   },
   {
     "id": 56,
