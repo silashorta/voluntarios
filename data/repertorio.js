@@ -524,8 +524,65 @@ const cancoes = [
     "tomMasculino": "",
     "andamento": 66,
     "compasso": "4/4",
-    "linkYoutube": "https://www.youtube.com/watch?v=YyFd_dXy494",
-    "cifra": ""
+    "linkYoutube": `https://www.youtube.com/watch?v=YyFd_dXy494`,
+    "cifra": `<pre>
+    <span>INTRO:</span> <span class="cifra">C</span> <span class="cifra">A</span>m7 <span class="cifra">E</span>m7 <span class="cifra">D</span>
+    
+                    <span class="cifra">G</span>
+    O fogo não me queima Nas águas não vou afundar
+            <span class="cifra">C</span>7M
+    Pois estás comigo Não estou sozinho
+                    <span class="cifra">G</span>
+    Eu estou guardado No esconderijo
+            <span class="cifra">C</span>7M
+    Não estou sozinho Tu estás comigo
+    
+    <span class="cifra">C</span>7M           <span class="cifra">D</span>             <span class="cifra">E</span>m7
+    Temer por quê? Se eu estou
+                            <span class="cifra">G</span>/<span class="cifra">B</span>
+    Guardado por quem nunca Perdeu batalhas
+    <span class="cifra">C</span>7M       <span class="cifra">D</span>
+    Seu nome é Jeová Jireh
+                <span class="cifra">G</span>
+    Irás prover de novo Eu creio em Ti
+    
+    <span class="cifra">C</span>                 <span class="cifra">D</span>
+    Haja o que houver Venha o que vier
+            <span class="cifra">G</span>4         <span class="cifra">G</span>      <span class="cifra">D</span>/<span class="cifra">G</span>     <span class="cifra">G</span>
+    Irás prover de novo Eu creio em Ti
+            <span class="cifra">C</span>                <span class="cifra">D</span>
+    Eu não vivo do que vejo Vivo do que creio
+            <span class="cifra">G</span>4         <span class="cifra">G</span>      <span class="cifra">D</span>/G     <span class="cifra">G</span>
+    Irás prover de novo Eu creio em Ti
+    
+      <span class="cifra">C</span>  <span class="cifra">D</span>  <span class="cifra">E</span>m7
+    (Oh, oh oh)
+    <span class="cifra">G</span>/<span class="cifra">B</span>
+    (Oh, oh oh)
+    
+    <span class="cifra">C</span>7M
+    A tempestade
+        <span class="cifra">D</span>
+    E o vento forte
+    <span class="cifra">E</span>m7                    <span class="cifra">G</span>/<span class="cifra">B</span>
+    Não vão roubar a minha fé
+                <span class="cifra">C</span>7M
+    Em Ti, meu Deus
+    
+    <span class="cifra">C</span>7M
+    A tempestade
+        <span class="cifra">D</span>
+    E o vento forte
+    <span class="cifra">E</span>m7                    <span class="cifra">G</span>/<span class="cifra">B</span>
+    Não vão roubar a minha fé
+                <span class="cifra">C</span>7M
+    Em Ti, meu Deus
+    
+                <span class="cifra">D</span>
+    Em Ti, meu Deus
+                <span class="cifra">E</span>m7     <span class="cifra">G</span>/<span class="cifra">B</span>
+    Em Ti, meu Deus
+    </pre>`
   },
   {
     "id": 45,

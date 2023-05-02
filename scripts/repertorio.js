@@ -104,7 +104,7 @@ function insereDados() {
         <div class="accordion container" id="accordionExample">
             <div class="accordion-item ">
             <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${cancoes[i].id}" aria-expanded="false" aria-controls="collapse${cancoes[i].id}">
+                <button class="accordion-button bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${cancoes[i].id}" aria-expanded="false" aria-controls="collapse${cancoes[i].id}">
                 <div><strong id="idTitulo">#${cancoes[i].id} ${cancoes[i].titulo}</strong><div>
                 <div><em>${cancoes[i].subtitulo}</em><div>
                 </button>
@@ -115,9 +115,9 @@ function insereDados() {
                         <div class="col">
                             <p><em>${cancoes[i].interprete}</em></p>
                             <div>
-                                <a href="${cancoes[i].linkYoutube}" target="blank">
-                                <div><img class="iconYoutube" src="../icon/youtube.png" alt="ícone Youtube"></img></div>
-                                ${cancoes[i].titulo}</a>
+                                <div class="">
+                                    <a href="${cancoes[i].linkYoutube}" target="blank"><img class="iconYoutube" src="../icon/youtube.png" alt="ícone Youtube"></img> ${cancoes[i].titulo}</a>
+                                </div>
                             </div>
                         </div>
                         <div class="col">
@@ -127,8 +127,13 @@ function insereDados() {
                             <p>Compasso: ${cancoes[i].compasso}</p>
                         </div>
                     </div>
+                    <hr>
                     <div>
-                        <p>Tags</p>
+                        <p>Tags:</p>
+                    </div>
+                    <hr>
+                    <div>
+                        ${cancoes[i].cifra}
                     </div>
                 </div>
             </div>
