@@ -115,10 +115,9 @@ function insereDados() {
                         <div class="col">
                             <p><em>${cancoes[i].interprete}</em></p>
                             <div>
-                                <a href="${cancoes[i].linkYoutube}" target="blank"><img class="iconYoutube" src="../icon/youtube.png" alt="ícone Youtube"></img>Link Youtube</a>
-                            </div>
-                            <div>
-                                <img class="iconSpotify" src="../icon/spotify.png"></img>
+                                <a href="${cancoes[i].linkYoutube}" target="blank">
+                                <div><img class="iconYoutube" src="../icon/youtube.png" alt="ícone Youtube"></img></div>
+                                ${cancoes[i].titulo}</a>
                             </div>
                         </div>
                         <div class="col">
@@ -129,7 +128,7 @@ function insereDados() {
                         </div>
                     </div>
                     <div>
-                        <p>4</p>
+                        <p>Tags</p>
                     </div>
                 </div>
             </div>
