@@ -79,10 +79,21 @@
     height: 20px,
 }
 
+.accordion{
+    background-color: #fff;
+}
 
 .accordion-item:hover{
     background-color: #a9a9a927;
     transition: all 0.15s;
+}
+
+.idTitulo__titulo{
+    margin-left: 1em;
+}
+
+#novo-plus{
+    font-size: 2em;
 }
 
 .subtitulo{
@@ -101,7 +112,12 @@
 
 .cifra{
     font-weight: bold;
+    font-style: italic;
     color: #fa6400;
+}
+
+pre{
+    font-family: var(--opensans);
 }
 
 .footer{

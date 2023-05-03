@@ -139,4 +139,5 @@ function enviaModal() {
         }
     });
     cancoesModal.innerHTML = `${optionsCancoes.join(`<br>`)}`
+
 }

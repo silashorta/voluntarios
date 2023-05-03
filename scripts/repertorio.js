@@ -19,7 +19,7 @@ function insereDados() {
             <div class="accordion-item ">
             <h2 class="accordion-header">
                 <button class="accordion-button bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${cancoes[i].id}" aria-expanded="false" aria-controls="collapse${cancoes[i].id}">
-                <div><strong id="idTitulo">#${cancoes[i].id} ${cancoes[i].titulo}</strong><div>
+                <div><strong id="idTitulo">#${cancoes[i].id} <span class="idTitulo__titulo">${cancoes[i].titulo}</span></strong><div>
                 <div><em>${cancoes[i].subtitulo}</em><div>
                 </button>
             </h2>
@@ -30,7 +30,7 @@ function insereDados() {
                             <p><em>${cancoes[i].interprete}</em></p>
                             <div>
                                 <div class="">
-                                    <a href="${cancoes[i].linkYoutube}" target="blank"><img class="iconYoutube" src="../icon/youtube.png" alt="ícone Youtube"></img> ${cancoes[i].titulo}</a>
+                                    <a href="${cancoes[i].linkYoutube}" target="blank"><img class="iconYoutube" src="../icon/youtube.png" alt="ícone Youtube"></img> <div>${cancoes[i].titulo}</div></a>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +98,6 @@ function pesquisar() {
         || cancao.andamento.toString().toLowerCase().includes(nome)
         || cancao.compasso.toLowerCase().includes(nome)
     );
-    console.log(filtrado)
     table.innerHTML = "";
     insereDadosFiltrados(filtrado);
 }
@@ -106,7 +105,10 @@ function pesquisar() {
 
 //FUNÇÃO INSERIR VOLUNTÁRIOS FILTRADOS
 function insereDadosFiltrados(filtrado) {
-
+    
+    table.innerHTML = `<p px-4><strong>${filtrado.length}</strong> resultado(s) encontrado(s).</p>`
+    
+    
     for (let i = 0; i < filtrado.length; i++) {
 
         const row = document.createElement('div')
@@ -114,11 +116,11 @@ function insereDadosFiltrados(filtrado) {
         row.id = 'row'
         table.appendChild(row)
         row.innerHTML = `
-        <div class="accordion container" id="accordionExample">
+        <div class="accordion container my-1" id="accordionExample">
             <div class="accordion-item ">
             <h2 class="accordion-header">
                 <button class="accordion-button bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${filtrado[i].id}" aria-expanded="false" aria-controls="collapse${filtrado[i].id}">
-                <div><strong id="idTitulo">#${filtrado[i].id} ${filtrado[i].titulo}</strong><div>
+                <div><strong id="idTitulo">#${filtrado[i].id} <span class="idTitulo__titulo">${filtrado[i].titulo}</span></strong><div>
                 <div><em>${filtrado[i].subtitulo}</em><div>
                 </button>
             </h2>
@@ -129,7 +131,7 @@ function insereDadosFiltrados(filtrado) {
                             <p><em>${filtrado[i].interprete}</em></p>
                             <div>
                                 <div class="">
-                                    <a href="${filtrado[i].linkYoutube}" target="blank"><img class="iconYoutube" src="../icon/youtube.png" alt="ícone Youtube"></img> ${filtrado[i].titulo}</a>
+                                    <a href="${filtrado[i].linkYoutube}" target="blank"><img class="iconYoutube" src="../icon/youtube.png" alt="ícone Youtube"></img> <div>${filtrado[i].titulo}</div></a>
                                 </div>
                             </div>
                         </div>
@@ -157,9 +159,7 @@ function insereDadosFiltrados(filtrado) {
                 </div>
             </div>
         </div>`
-
     }
-
 
 }
 
