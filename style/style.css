@@ -69,6 +69,11 @@
     width: 50px
 }
 
+#input__limpar:hover,
+#input__pesquisar:hover{
+    background-color: #0000003a;
+}
+
 #voluntarios__search{
     margin: 1em;
     width: 90%;

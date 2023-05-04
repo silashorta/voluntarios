@@ -715,48 +715,48 @@ const cancoes = [
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=Z6cONvRUFZQ",
     "cifra": `<pre class="mt-5">
-INTRO: <span class="cifra">Bb C Am7 Bb</span>
+INTRO: <span class="cifra"><span class="IV">Bb</span> <span class="V">C</span> <span class="III">A</span>m7 <span class="IV">Bb</span></span>
 
-              <span class="cifra">Bb</span>
+              <span class="cifra IV">Bb</span>
 Eu poderia estar
-                    <span class="cifra">C</span>
+                    <span class="cifra V">C</span>
 Em qualquer outro lugar
-                  <span class="cifra">F/A</span>
+                  <span class="cifra"><span class="I">F</span>/<span class="III">A</span></span>
 Mas Tua glória me atraiu
-                Bb
+                <span class="cifra IV">Bb</span>
 Tua presença me atraiu
 
-                <span class="cifra">Bb</span>
+                <span class="cifra IV">Bb</span>
 Tentei me esconder
-                  <span class="cifra">C</span>
+                  <span class="cifra V">C</span>
 Por medo de não viver
-                  <span class="cifra">F/A</span>
+                  <span class="cifra"><span class="I">F</span>/<span class="III">A</span></span>
 Mas Tua glória me atraiu
-                <span class="cifra">Bb</span>
+                <span class="cifra IV">Bb</span>
 Tua presença me atraiu
 
-        <span class="cifra">Bb</span>
+        <span class="cifra IV">Bb</span>
 É que a sarça pegou fogo e não se consumiu
-    <span class="cifra">C</span>
+    <span class="cifra V">C</span>
 E a voz que saiu dela um dia me atraiu
-        <span class="cifra">F/A</span>
+        <span class="cifra"><span class="I">F</span>/<span class="III">A</span></span>
 E o meu coração queimou até que descobriu
-        <span class="cifra">Dm7                      C</span>
+        <span class="cifra"><span class="VI">D</span>m7                      <span class="V">C</span></span>
 Que um dia com Tua glória vale mais que mil
-<span class="cifra">Bb</span>
+<span class="cifra IV">Bb</span>
 É que a sarça pegou fogo e não se consumiu
-    <span class="cifra">C</span>
+    <span class="cifra V">C</span>
 E a voz que saiu dela um dia me atraiu
-        <span class="cifra">F/A</span>
+        <span class="cifra"><span class="I">F</span>/<span class="III">A</span></span>
 E o meu coração queimou até que descobriu
-        <span class="cifra">Dm7</span>
+        <span class="cifra"><span class="VI">D</span>m7</span>
 Que um dia com Tua glória
-    <span class="cifra">C                      Bb  C/Bb  Bb</span>
+    <span class="cifra"><span class="V">C</span>                      <span class="IV">Bb</span>  <span class="V">C</span>/<span class="IV">Bb</span>  <span class="IV">Bb</span></span>
 Um dia com Tua glória vale mais que mil
 
-<span class="cifra">Bb            C</span>
+<span class="cifra"><span class="IV">Bb</span>            <span class="V">C</span></span>
 Atraído pela Tua presença
-<span class="cifra">Dm7                Am7</span>
+<span class="cifra"><span class="VI">D</span>m7                <span class="III">A</span>m7</span>
 Não me vejo sem a Tua presença
 </pre>`
   },
