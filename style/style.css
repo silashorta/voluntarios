@@ -115,6 +115,9 @@
     width: 40px;
 }
 
+.letra{
+    margin-top: 1em;
+}
 .cifra{
     font-weight: bold;
     font-style: italic;

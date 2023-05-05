@@ -21,7 +21,30 @@ const cancoes = [
     "andamento": 70,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=Q_MerFW9qA4",
-    "cifra": ""
+    "cifra": `    
+<pre>
+Porque Dele e por Ele
+Para Ele são todas as coisas
+Porque Dele e por Ele
+Para Ele são todas as coisas
+
+A Ele a glória
+A Ele a glória
+A Ele a glória
+Pra sempre
+Amém
+
+Quão profundas riquezas
+O saber e o conhecer de Deus
+Quão insondáveis
+Seus juízos e Seus caminhos
+
+A Ele a glória
+A Ele a glória
+A Ele a glória
+Pra sempre
+Amém
+</pre>`
   },
   {
     "id": 3,
@@ -33,7 +56,38 @@ const cancoes = [
     "andamento": 60,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=U4l40DvaeGw",
-    "cifra": ""
+    "cifra": `
+<pre>
+Meu Jesus, Salvador
+Outro igual não há
+Todos os dias quero louvar
+As maravilhas de Teu amor
+
+Consolo, abrigo
+Força e refúgio é o Senhor
+Com todo o meu ser
+Com tudo o que sou
+Sempre Te adorarei
+
+Aclame ao Senhor, toda a terra e cantemos
+Poder, majestade e louvores ao Rei
+Montanhas se prostrem e rujam os mares
+Ao som de Teu nome
+
+Alegre Te louvo por Teus grandes feitos
+Firmado estarei, sempre Te amarei
+Incomparáveis são Tuas promessas pra mim
+
+2ª vez
+Incomparáveis são Tuas promessas
+Incomparáveis são Tuas promessas
+Incomparáveis são Tuas promessas
+Incomparáveis são Tuas promessas
+Incomparáveis são Tuas promessas
+Incomparáveis são Tuas promessas
+Incomparáveis são Tuas promessas pra mim
+</pre>
+`
   },
   {
     "id": 4,
@@ -57,7 +111,36 @@ const cancoes = [
     "andamento": 70,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=gOnp0Kuq-9M",
-    "cifra": ""
+    "cifra": `
+<pre>
+Deus me chamou, Deus me chamou
+Pra tudo abandonar
+Me convidou, me convidou
+Pra nEle confiar
+
+Minha vida é, minha vida é
+Oferta em Seu altar
+Espírito do vivo Deus
+Em tudo satisfaz
+Tudo satisfaz
+
+Estou aqui
+Tudo o que sou
+Eu entrego hoje aos pés do meu Senhor
+Pois eu sou Teu
+E Tu és meu
+E eu sei que ao meu lado sempre estás
+(Para sempre estarás)
+
+O meu ser Te deseja
+Todo o céu Te adora
+Provei e pude ver que Tu és bom
+Pra sempre Tu reinas
+Teu trono é eterno
+E pra sempre cantarei
+Que Tu és bom
+</pre>
+`
   },
   {
     "id": 6,
@@ -93,7 +176,43 @@ const cancoes = [
     "andamento": 160,
     "compasso": "6/8",
     "linkYoutube": "https://www.youtube.com/watch?v=WWrU6LC_4ho",
-    "cifra": ""
+    "cifra": `
+<pre>
+Nós estamos aqui
+Tão sedentos de Ti
+Vem oh Deus, vem oh Deus
+Enche este lugar
+Meu desejo é sentir
+Teu poder, Teu poder
+
+Então vem me incendiar
+Meu coração é Teu altar
+Quero ouvir o som do céu
+Tua Glória contemplar
+
+Nós estamos aqui
+Tão sedentos de Ti
+Vem oh Deus, vem oh Deus
+Enche este lugar
+Meu desejo é sentir
+Teu poder, Teu poder
+
+Então vem me incendiar
+Meu coração é Teu altar
+Quero ouvir o som do céu
+Tua Glória contemplar
+
+Te damos honra
+Te damos glória
+Teu é o poder
+Pra sempre, amém
+
+Então vem me incendiar
+Meu coração é Teu altar
+Quero ouvir o som do céu
+Tua Glória contemplar
+</pre>
+    `
   },
   {
     "id": 9,
@@ -117,7 +236,62 @@ const cancoes = [
     "andamento": 70,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=GrL3DlrKAjI",
-    "cifra": ""
+    "cifra": `
+<pre>
+Há poder no nome de Jesus
+Há poder no nome de Jesus
+Há poder no nome de Jesus
+Pra cadeias quebrar
+Cadeias quebrar, cadeias quebrar
+
+Há poder no nome de Jesus
+Há poder no nome de Jesus
+Há poder no nome de Jesus
+Pra cadeias quebrar
+Cadeias quebrar, cadeias quebrar
+Cadeias quebrar, cadeias quebrar, cadeias quebrar
+
+Alto preço ele pagou
+Tão livremente se entregou
+Por nossa redenção se deu
+E o céu se abriu
+Oh, eu creio
+
+Há poder no nome de Jesus
+Há poder no nome de Jesus
+Há poder no nome de Jesus
+Pra cadeias quebrar
+Cadeias quebrar, cadeias quebrar
+Cadeias quebrar, cadeias quebrar, cadeias quebrar
+
+Um exército surgiu
+Um exército surgiu
+Um exército surgiu
+Pra cadeias quebrar
+Cadeias quebrar, cadeias quebrar
+
+Um exército surgiu (um exército surgiu)
+Um exército surgiu
+Um exército surgiu
+Pra cadeias quebrar
+Cadeias quebrar, cadeias quebrar
+Cadeias quebrar, cadeias quebrar, cadeias quebrar
+
+Ouço cadeias quebrando
+Ouço cadeias quebrando (eu ouço cadeias)
+(Ouço cadeias quebrando) quebrando em nome de Jesus
+(Ouço cadeias quebrando) toda cadeia da enfermidade, quebra
+(Ouço cadeias quebrando) ouço prisões que se abrem agora
+(Ouço cadeias quebrando) em nome de Jesus, eu ouço
+Ouço cadeias quebrando
+Há poder no seu nome, Jesus
+
+Pra cadeias quebrar
+Cadeias quebrar, cadeias quebrar
+Cadeias quebrar, cadeias quebrar, cadeias quebrar
+Há poder no nome de Jesus
+</pre>
+`
   },
   {
     "id": 11,
@@ -141,7 +315,48 @@ const cancoes = [
     "andamento": 68,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=bxMzZVfh7zc",
-    "cifra": ""
+    "cifra": `
+<pre>
+Vamos cantar
+Uma canção ao Cordeiro
+Vamos cantar
+Uma canção ao Cordeiro
+Vamos cantar
+Uma canção ao Cordeiro, vamos
+Vamos cantar
+Uma canção ao Cordeiro
+
+Quem é como o Senhor?
+Quem é como o Senhor?
+
+Santo, és incomparável
+Não há outro como Tu
+Reinas sobre a terra e céu
+Pra sempre
+
+Santo, és incomparável
+Não há outro como Tu
+Reinas sobre a terra e céu
+Pra sempre
+
+Honra, glória, força e poder
+Honra, glória, força e poder
+Honra, glória, força e poder
+Honra, glória, força e poder
+
+Santo, és incomparável
+Não há outro como Tu
+Reinas sobre a terra e céu
+Pra sempre, pra sempre
+
+Santo, és incomparável
+Não há outro como Tu
+Reinas sobre a terra e céu
+Pra sempre
+
+Pra sempre, pra sempre
+</pre>
+`
   },
   {
     "id": 13,
@@ -153,7 +368,57 @@ const cancoes = [
     "andamento": 60,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=5j0arvaKdqk",
-    "cifra": ""
+    "cifra": `
+<pre>
+Digno é o Cordeiro
+Que foi morto
+Santo, Santo Ele é
+
+Um novo cântico
+Ao que se assenta
+Sobre o trono do Céu
+
+Santo, Santo, Santo
+Deus Todo Poderoso
+Que era, e é, e há de vir
+Com a criação eu canto
+Louvores ao Rei dos Reis
+És tudo para mim
+E eu Te adorarei
+
+Está vestido do arco-íris
+Sons de trovão, luzes, relâmpagos
+Louvores, honra e glória
+Força e poder pra sempre
+Ao único Rei eternamente
+
+Santo, Santo, Santo
+Deus Todo Poderoso
+Que era, e é e há de vir
+Com a criação eu canto
+Louvores ao Rei dos Reis
+És tudo para mim
+E eu Te adorarei
+
+Maravilhado, extasiado
+Eu fico ao ouvir Teu nome
+
+Maravilhado, extasiado
+Eu fico ao ouvir Teu nome
+
+Jesus, Teu nome é força
+É fôlego de vida
+Misteriosa Água Viva
+
+Santo, Santo, Santo
+Deus Todo Poderoso
+Que era, e é e há de vir
+Com a criação eu canto
+Louvores ao Rei dos Reis
+És tudo para mim
+E eu Te adorarei
+</pre>   
+`
   },
   {
     "id": 14,
@@ -165,7 +430,36 @@ const cancoes = [
     "andamento": 70,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=4yZKR1GC8Ck",
-    "cifra": ""
+    "cifra": `
+<pre>
+Está cercado de toda glória
+E a plenitude está onde você está
+Sua voz ecoa sobre a terra e os céus
+E tudo o que há em mim
+Se prostra em adoração
+
+Seu amor inunda os corações
+Tua paixão inflama nossa vida
+Tua presença quebra tudo
+Que não é real
+
+Santo, Santo, Santo, Santo
+
+Vem com fogo e glória, Deus
+Com tua presença
+Com tua presença
+
+Eu vou te buscar até te encontrar
+Até que eu tenha mais de ti
+Vou subir ao céus, vou descer ao mar
+Mergulhar no mais profundo só pra Te encontrar
+
+Meu coração por Ti palpita
+Sou atraído pelo Teu olhar
+Meu coração por Ti palpita
+Sou atraído pelo Teu olhar
+</pre>
+`
   },
   {
     "id": 15,
@@ -189,7 +483,37 @@ const cancoes = [
     "andamento": 70,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=Ns_YqW_KbTI",
-    "cifra": ""
+    "cifra": `
+<pre>
+Teu sangue faz o surdo ouvir agora
+Teu sangue quebra maldição agora
+Teu sangue cura toda dor agora
+Teu sangue liberta o cativo agora
+
+E eu creio que
+Tu és o mesmo ontem, hoje e para sempre
+E eu creio que
+Teu sangue é o que basta pra mim
+
+Teu sangue sara os corações agora
+Teu sangue me leva a perdoar agora
+Teu sangue transforma a minha mente agora
+Teu sangue faz o morto reviver agora
+
+E eu creio que
+Tu és o mesmo ontem, hoje e para sempre
+E eu creio que
+Teu sangue é o que basta pra mim, oh Deus
+
+
+E não há nada que resista ao Teu poder
+Nem pecado, nem o mal
+Livre sou, livre sou
+E não há nada que resista ao Teu poder
+Nem pecado, nem o mal
+Livre sou, livre sou
+</pre>
+`
   },
   {
     "id": 17,
@@ -249,7 +573,42 @@ const cancoes = [
     "andamento": 72,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=N1fVZ-2qtzQ",
-    "cifra": ""
+    "cifra": `
+<pre>
+Os santos e os anjos
+Se prostram aos Teus pés
+Os anciãos rendem suas coroas ao cordeiro
+E a Ele cantam
+
+Tu És digno de tudo
+Tu És digno de tudo
+Pois, tudo vem de Ti
+E tudo é para Ti
+Tua é a glória
+
+Dia e noite suba a Ti nossa adoração
+Dia e noite suba a Ti nossa adoração
+Dia e noite suba a Ti nossa adoração
+Dia e noite suba a Ti nossa adoração
+
+Tu És digno de tudo
+Tu És digno de tudo
+Pois, tudo vem de Ti
+E tudo é para Ti
+Tua é a glória
+
+Te exaltamos
+Te exaltamos
+Te exaltamos
+Oh Senhor
+
+Tu És digno de tudo
+Tu És digno de tudo
+Pois, tudo vem de Ti
+E tudo é para Ti
+Tua é a glória
+</pre>
+`
   },
   {
     "id": 22,
@@ -261,7 +620,33 @@ const cancoes = [
     "andamento": 75,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=stKPXkcW5v8",
-    "cifra": ""
+    "cifra": `
+<pre>
+Graças eu te dou, Pai
+Pelo preço que pagou
+Sacrifício de amor
+Que me comprou
+Ungido do Senhor
+
+Pelos cravos em tuas mãos
+Graças eu te dou, ó meu Senhor
+Lavou minha mente e coração
+Me deu perdão
+
+Restaurou-me a comunhão
+
+Digno é o Senhor
+Sobre o trono está
+Soberano, criador
+Vou sempre te adorar
+Elevo minhas mãos
+Ao Cristo que venceu
+Cordeiro de Deus morreu por mim
+
+Mas ressuscitou
+Digno é o Senhor
+</pre>
+`
   },
   {
     "id": 23,
@@ -273,7 +658,29 @@ const cancoes = [
     "andamento": "",
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=tF6-fjG51tc",
-    "cifra": ""
+    "cifra": `
+<pre>
+Agindo Deus, quem impedirá?
+Se ele é por nós
+Quem contra nós será?
+Quem contra nós será?
+
+O bom pastor não vai deixar faltar
+Não vou temer
+Eu só preciso crer
+Eu só preciso crer
+
+Quem me prometeu não é homem para mentir
+Nem filho do homem pra se arrepender
+Quem me prometeu não é homem para mentir
+Nem filho do homem pra se arrepender
+
+O meu Deus nunca falhou
+E não falhará, Ele cumprirá
+Terra e céus passarão
+Mas Sua palavra permanecerá
+</pre>
+`
   },
   {
     "id": 24,
@@ -285,19 +692,59 @@ const cancoes = [
     "andamento": 172,
     "compasso": "6/8",
     "linkYoutube": "https://www.youtube.com/watch?v=22c5Flzd8Iw",
-    "cifra": ""
+    "cifra": `
+<pre>
+Ele é exaltado
+O Rei é exaltado nos céus
+Eu o louvarei
+
+Ele é exaltado
+Pra sempre exaltado
+O Seu nome louvarei
+
+Ele é o Senhor
+Sua verdade vai sempre reinar
+Terra e céus
+Glorificam seu Santo nome
+
+Ele é exaltado
+O Rei é exaltado nos céus
+</pre>
+`
   },
   {
     "id": 25,
     "titulo": "Em Seu Nome",
     "subtitulo": "",
-    "interprete": "André Aquino",
+    "interprete": "André Aquino e Gabriela Rocha",
     "tomFeminino": "",
     "tomMasculino": "",
     "andamento": 70,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=hA1aGIOGlSI",
-    "cifra": ""
+    "cifra": `
+<pre>
+Só um nome há, o nome de Jesus
+Nome que traz cura, salvação
+Só um nome há, o nome de Jesus
+Todas as nações vão declarar
+
+O Pai O exaltou
+Seu nome colocou acima de todo poder
+No nome de Jesus cadeias vão cair
+Pois toda autoridade tem
+
+Em Seu nome o inferno treme
+Em Seu nome os coxos andam
+E em Seu nome os cegos veem
+E em Seu nome os mortos vivem
+
+Há poder em Seu nome Jesus
+Pra curar, libertar
+Há poder em Seu nome Jesus
+Pra curar, libertar
+</pre>
+`
   },
   {
     "id": 26,
@@ -309,7 +756,25 @@ const cancoes = [
     "andamento": 67,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=ga4aPszZAlc",
-    "cifra": ""
+    "cifra": `
+<pre>
+Deus conosco, Deus sempre presente
+Meu amigo eterno, inseparável
+O Criador que se vestiu da criação
+Emanuel
+
+As mãos que sustentam o universo
+Sustentam o meu coração
+A Voz que falou e tudo se formou
+Me chama pelo nome
+
+Deixou sua glória, se esvaziou
+Se tornou servo, se humilhou
+Nele estava a vida
+E a vida era a luz dos homens
+Venceu a morte e ressuscitou
+</pre>
+`
   },
   {
     "id": 27,
@@ -321,7 +786,27 @@ const cancoes = [
     "andamento": 67,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=ozBlvwVizXI",
-    "cifra": ""
+    "cifra": `
+<pre>
+Tu provês o fogo
+E eu, o sacrifício sou
+Tu provês o Espírito
+E eu me abro por inteiro
+
+Enche-me, Deus
+Enche-me, Deus
+Enche-me
+Enche-me, Deus
+Enche-me, Deus
+Enche-me, Deus
+Enche-me
+
+Enche-me
+Até transbordar
+Derrama a Sua glória
+Derrama a Sua glória
+</pre>
+`
   },
   {
     "id": 28,
@@ -333,7 +818,49 @@ const cancoes = [
     "andamento": 67,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=7ivOU0qJUbQ",
-    "cifra": ""
+    "cifra": `
+<pre>
+O espírito de Deus está aqui
+Operando em nossos corações
+Trazendo Sua vida e poder
+Ministrando Sua graça e amor
+
+Os feridos de alma são curados
+Os cativos e oprimidos livres são
+Os enfermos e doentes são sarados
+Pois o espírito de Deus está aqui
+
+Pai, eu quero contemplar
+Tua glória e majestade
+Pai, eu quero Te adorar
+Em espírito e em verdade
+
+Não apenas no átrio ou no santo lugar
+Eu quero te entronizar entre os querubins
+
+Ó, leva-me à sala do trono
+Pelo novo e vivo caminho
+Pelo sangue de Jesus, eterno sumo sacerdote
+
+Ó, leva-me à sala do trono
+Pra Te adorar, Senhor
+Ó, leva-me à sala do trono
+Pra Te adorar, Senhor
+
+Pra Te adorar, Senhor
+Pra Te adorar, Senhor
+
+Aleluia, aleluia, aleluia
+Louvemos ao Senhor (aleluia)
+Aleluia, aleluia, aleluia
+Louvemos ao Senhor
+
+Aleluia, Te louvo
+Pois sei que sobre todos és, Senhor
+Aleluia, Te louvo
+Pois sei que sobre todos és, Senhor
+</pre>
+`
   },
   {
     "id": 29,
@@ -345,7 +872,39 @@ const cancoes = [
     "andamento": 50,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=4x-yrCz1D9g",
-    "cifra": ""
+    "cifra": `
+<pre>
+Pressionados, mas não desanimados
+Perplexos, mas não desesperados
+Estamos de pé
+Perseguidos, mas não abandonados
+Abatidos, mas não destruídos
+Estamos de pé
+
+Não caminhamos pelo que vemos
+O que nos move é o que nós cremos
+Nação santa, somos a igreja
+Vivemos por fé
+Estamos de pé
+
+Perseguidos, mas não abandonados
+Abatidos, mas não destruídos
+Estamos de pé
+
+Não caminhamos pelo que vemos
+O que nos move é o que nós cremos
+Nação santa, somos a igreja
+Vivemos por fé
+Estamos de pé
+
+A perseguição não parou a igreja
+O coliseu não parou a igreja
+Os leões não pararam a igreja do Senhor
+O inferno não pode prevalecer
+Vamos avançar, não vamos parar de crescer
+Ninguém pode parar a igreja do Senhor
+</pre>
+`
   },
   {
     "id": 30,
@@ -357,7 +916,58 @@ const cancoes = [
     "andamento": 78,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=2FEMS7p4sXI",
-    "cifra": ""
+    "cifra": `
+<pre>
+Ouvi dizer que não verei
+Essa montanha se mover
+Mas Te conheço e eu sei
+Em Teu nome há poder
+
+Ouvi dizer que eu não vou
+Atravessar essa maré
+Mas sei que grande é o Senhor
+Em Teu nome há poder
+Em Teu nome há poder
+
+Eu quero o Teu mover
+Cadeias vão romper
+Eu creio em Ti
+Eu creio em Ti, meu Deus
+
+Do impossível, eu sei
+Milagres eu verei
+Eu creio em Ti
+Eu creio em Ti, meu Deus
+
+A esperança viva está
+Pois o meu Deus ressuscitou
+Pra sempre eu vou confiar
+Em Teu nome há poder
+Em Teu nome há poder
+
+Eu quero o Teu mover
+Cadeias vão romper
+Eu creio em Ti
+Eu creio em Ti, meu Deus
+
+Do impossível, eu sei
+Milagres eu verei
+Eu creio em Ti, oh
+Eu creio em Ti, meu Deus
+
+Caminho és, quando no escuro estou
+Eu creio em Ti, Tua palavra não mudou
+Caminho és, quando no escuro estou
+Eu creio em Ti, Tua palavra não mudou
+Caminho és, quando no escuro estou
+Eu creio em Ti, Tua palavra não mudou
+
+Se Deus falou, irá cumprir
+Se Deus falou, irá cumprir
+Se Deus falou, irá cumprir
+Se Deus falou, irá cumprir
+</pre>
+`
   },
   {
     "id": 31,
@@ -369,7 +979,45 @@ const cancoes = [
     "andamento": 76,
     "compasso": "6/8",
     "linkYoutube": "https://www.youtube.com/watch?v=gFS2qVMtD6g",
-    "cifra": ""
+    "cifra": `
+<pre>
+Eis me aqui prostrado outra vez
+Pra tudo entregar
+Pra tudo entregar
+Leva-me perto de Ti, Senhor
+Anseio por ti
+Anseio por ti
+Eu me rendo
+
+Enche-me da graça e do teu amor
+Sacia meu ser
+Sacia meu ser
+Abraça-me, ouve o meu clamor
+Fala pra mim
+Fala pra mim
+
+Eu me rendo
+Eu me rendo
+Pra conhecer-te mais
+Pra conhecer-te mais
+
+Eu me rendo
+Eu me rendo
+Pra conhecer-te mais
+Pra conhecer-te mais
+
+Vento de poder sopra em meu viver
+Faz teu querer, faz teu querer em mim
+
+Como um vendaval sobrenatural
+Faz teu querer, faz teu querer em mim
+
+Eu me rendo
+Eu me rendo
+Pra conhecer-te mais
+Pra conhecer-te mais
+</pre>
+`
   },
   {
     "id": 32,
@@ -714,7 +1362,7 @@ const cancoes = [
     "andamento": 62,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=Z6cONvRUFZQ",
-    "cifra": `<pre class="mt-5">
+    "cifra": `<pre>
 INTRO: <span class="cifra"><span class="IV">Bb</span> <span class="V">C</span> <span class="III">A</span>m7 <span class="IV">Bb</span></span>
 
               <span class="cifra IV">Bb</span>

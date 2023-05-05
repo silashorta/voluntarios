@@ -51,7 +51,7 @@ function insereDados() {
                     </div>
                     <hr>
                     <div class="tonalidade">
-                        <select name="selectTom" class="form-select" id="selectTom">
+                        <select class="form-select" id="tomSelect" onchange="tomSeleciona()">
                             <option class="optionTom" value="C">C | Am</option>
                             <option class="optionTom" value="C#">C# | A#m</option>
                             <option class="optionTom" value="D">D | Bm</option>
@@ -79,6 +79,211 @@ function insereDados() {
             </div>
         </div>`
 
+        const tom = document.querySelector('#tomSelect');
+        const I = document.querySelectorAll('.I');
+        const II = document.querySelectorAll('.II');
+        const III = document.querySelectorAll('.III');
+        const IV = document.querySelectorAll('.IV');
+        const V = document.querySelectorAll('.V');
+        const VI = document.querySelectorAll('.VI');
+        const VII = document.querySelectorAll('.VII');
+
+
+        tom.addEventListener('click', tomSeleciona)
+        tom.addEventListener('touchstart', tomSeleciona)
+
+        function tomSeleciona() {
+            console.log(tom.value)
+            for (let i = 0; i < I.length; i++) {
+                if (tom.value === 'C') {
+                    I[i].textContent = 'C';
+                } else if (tom.value === 'C#') {
+                    I[i].textContent = 'C#';
+                } else if (tom.value === 'D') {
+                    I[i].textContent = 'D';
+                } else if (tom.value === 'Eb') {
+                    I[i].textContent = 'Eb';
+                } else if (tom.value === 'E') {
+                    I[i].textContent = 'E';
+                } else if (tom.value === 'F') {
+                    I[i].textContent = 'F';
+                } else if (tom.value === 'F#') {
+                    I[i].textContent = 'F#';
+                } else if (tom.value === 'G') {
+                    I[i].textContent = 'G';
+                } else if (tom.value === 'Ab') {
+                    I[i].textContent = 'Ab';
+                } else if (tom.value === 'A') {
+                    I[i].textContent = 'A';
+                } else if (tom.value === 'Bb') {
+                    I[i].textContent = 'Bb';
+                } else if (tom.value === 'B') {
+                    I[i].textContent = 'B';
+                }
+            }
+            for (let i = 0; i < II.length; i++) {
+                if (tom.value === 'C') {
+                    II[i].textContent = 'D';
+                } else if (tom.value === 'C#') {
+                    II[i].textContent = 'D#';
+                } else if (tom.value === 'D') {
+                    II[i].textContent = 'E';
+                } else if (tom.value === 'Eb') {
+                    II[i].textContent = 'F';
+                } else if (tom.value === 'E') {
+                    II[i].textContent = 'F#';
+                } else if (tom.value === 'F') {
+                    II[i].textContent = 'G';
+                } else if (tom.value === 'F#') {
+                    II[i].textContent = 'G#';
+                } else if (tom.value === 'G') {
+                    II[i].textContent = 'A';
+                } else if (tom.value === 'Ab') {
+                    II[i].textContent = 'Bb';
+                } else if (tom.value === 'A') {
+                    II[i].textContent = 'B';
+                } else if (tom.value === 'Bb') {
+                    II[i].textContent = 'C';
+                } else if (tom.value === 'B') {
+                    II[i].textContent = 'C#';
+                }
+            }
+            for (let i = 0; i < III.length; i++) {
+                if (tom.value === 'C') {
+                    III[i].textContent = 'E';
+                } else if (tom.value === 'C#') {
+                    III[i].textContent = 'E#';
+                } else if (tom.value === 'D') {
+                    III[i].textContent = 'F#';
+                } else if (tom.value === 'Eb') {
+                    III[i].textContent = 'G';
+                } else if (tom.value === 'E') {
+                    III[i].textContent = 'G#';
+                } else if (tom.value === 'F') {
+                    III[i].textContent = 'A';
+                } else if (tom.value === 'F#') {
+                    III[i].textContent = 'A#';
+                } else if (tom.value === 'G') {
+                    III[i].textContent = 'B';
+                } else if (tom.value === 'Ab') {
+                    III[i].textContent = 'C';
+                } else if (tom.value === 'A') {
+                    III[i].textContent = 'C#';
+                } else if (tom.value === 'Bb') {
+                    III[i].textContent = 'D';
+                } else if (tom.value === 'B') {
+                    III[i].textContent = 'D#';
+                }
+            }
+            for (let i = 0; i < IV.length; i++) {
+                if (tom.value === 'C') {
+                    IV[i].textContent = 'F';
+                } else if (tom.value === 'C#') {
+                    IV[i].textContent = 'F#';
+                } else if (tom.value === 'D') {
+                    IV[i].textContent = 'G';
+                } else if (tom.value === 'Eb') {
+                    IV[i].textContent = 'Ab';
+                } else if (tom.value === 'E') {
+                    IV[i].textContent = 'A';
+                } else if (tom.value === 'F') {
+                    IV[i].textContent = 'Bb';
+                } else if (tom.value === 'F#') {
+                    IV[i].textContent = 'B';
+                } else if (tom.value === 'G') {
+                    IV[i].textContent = 'C';
+                } else if (tom.value === 'Ab') {
+                    IV[i].textContent = 'Db';
+                } else if (tom.value === 'A') {
+                    IV[i].textContent = 'D';
+                } else if (tom.value === 'Bb') {
+                    IV[i].textContent = 'Eb';
+                } else if (tom.value === 'B') {
+                    IV[i].textContent = 'E';
+                }
+            }
+            for (let i = 0; i < V.length; i++) {
+                if (tom.value === 'C') {
+                    V[i].textContent = 'G';
+                } else if (tom.value === 'C#') {
+                    V[i].textContent = 'G#';
+                } else if (tom.value === 'D') {
+                    V[i].textContent = 'A';
+                } else if (tom.value === 'Eb') {
+                    V[i].textContent = 'Bb';
+                } else if (tom.value === 'E') {
+                    V[i].textContent = 'B';
+                } else if (tom.value === 'F') {
+                    V[i].textContent = 'C';
+                } else if (tom.value === 'F#') {
+                    V[i].textContent = 'C#';
+                } else if (tom.value === 'G') {
+                    V[i].textContent = 'D';
+                } else if (tom.value === 'Ab') {
+                    V[i].textContent = 'Eb';
+                } else if (tom.value === 'A') {
+                    V[i].textContent = 'E';
+                } else if (tom.value === 'Bb') {
+                    V[i].textContent = 'F';
+                } else if (tom.value === 'B') {
+                    V[i].textContent = 'F#';
+                }
+            }
+            for (let i = 0; i < VI.length; i++) {
+                if (tom.value === 'C') {
+                    VI[i].textContent = 'A';
+                } else if (tom.value === 'C#') {
+                    VI[i].textContent = 'A#';
+                } else if (tom.value === 'D') {
+                    VI[i].textContent = 'B';
+                } else if (tom.value === 'Eb') {
+                    VI[i].textContent = 'C';
+                } else if (tom.value === 'E') {
+                    VI[i].textContent = 'C#';
+                } else if (tom.value === 'F') {
+                    VI[i].textContent = 'D';
+                } else if (tom.value === 'F#') {
+                    VI[i].textContent = 'D#';
+                } else if (tom.value === 'G') {
+                    VI[i].textContent = 'E';
+                } else if (tom.value === 'Ab') {
+                    VI[i].textContent = 'F';
+                } else if (tom.value === 'A') {
+                    VI[i].textContent = 'F#';
+                } else if (tom.value === 'Bb') {
+                    VI[i].textContent = 'G';
+                } else if (tom.value === 'B') {
+                    VI[i].textContent = 'G#';
+                }
+            }
+            for (let i = 0; i < VII.length; i++) {
+                if (tom.value === 'C') {
+                    VII[i].textContent = 'B';
+                } else if (tom.value === 'C#') {
+                    VII[i].textContent = 'B#';
+                } else if (tom.value === 'D') {
+                    VII[i].textContent = 'C#';
+                } else if (tom.value === 'Eb') {
+                    VII[i].textContent = 'D';
+                } else if (tom.value === 'E') {
+                    VII[i].textContent = 'D#';
+                } else if (tom.value === 'F') {
+                    VII[i].textContent = 'E';
+                } else if (tom.value === 'F#') {
+                    VII[i].textContent = 'E#';
+                } else if (tom.value === 'G') {
+                    VII[i].textContent = 'F#';
+                } else if (tom.value === 'Ab') {
+                    VII[i].textContent = 'G';
+                } else if (tom.value === 'A') {
+                    VII[i].textContent = 'G#';
+                } else if (tom.value === 'Bb') {
+                    VII[i].textContent = 'A';
+                } else if (tom.value === 'B') {
+                    VII[i].textContent = 'A#';
+                }
+            }
+        }
     }
 
 }
@@ -169,7 +374,8 @@ function insereDadosFiltrados(filtrado) {
                     </div>
                     <hr>
                     <div class="tonalidade">
-                        <select class="form-select" id="selectTom" onclick="selecionaTom()">
+                        <select class="form-select" id="selectTom" onchange="selecionaTom">
+                            <option class="optionTom" value=""</option>
                             <option class="optionTom" value="C">C | Am</option>
                             <option class="optionTom" value="C#">C# | A#m</option>
                             <option class="optionTom" value="D">D | Bm</option>
@@ -197,8 +403,9 @@ function insereDadosFiltrados(filtrado) {
             </div>
         </div>`
 
+
         //FUNÇÃO SELECIONA TOM
-        
+
         const tom = document.querySelector('#selectTom');
         const I = document.querySelectorAll('.I');
         const II = document.querySelectorAll('.II');
@@ -208,115 +415,202 @@ function insereDadosFiltrados(filtrado) {
         const VI = document.querySelectorAll('.VI');
         const VII = document.querySelectorAll('.VII');
 
+        tom.value == cancoes.tomFeminino
+
         tom.addEventListener('click', selecionaTom)
+        tom.addEventListener('touchstart', selecionaTom)
 
         function selecionaTom() {
             console.log(tom.value)
             for (let i = 0; i < I.length; i++) {
-                if (tom.value === 'C') {I[i].textContent = 'C';
-                    }else if (tom.value === 'C#'){I[i].textContent = 'C#';
-                    }else if (tom.value === 'D'){I[i].textContent = 'D';
-                    }else if (tom.value === 'Eb'){I[i].textContent = 'Eb';
-                    }else if (tom.value === 'E'){I[i].textContent = 'E';
-                    }else if (tom.value === 'F'){I[i].textContent = 'F';
-                    }else if (tom.value === 'F#'){I[i].textContent = 'F#';
-                    }else if (tom.value === 'G'){I[i].textContent = 'G';
-                    }else if (tom.value === 'Ab'){I[i].textContent = 'Ab';
-                    }else if (tom.value === 'A'){I[i].textContent = 'A';
-                    }else if (tom.value === 'Bb'){I[i].textContent = 'Bb';
-                    }else if (tom.value === 'B'){I[i].textContent = 'B';
-                    }
+                if (tom.value === 'C') {
+                    I[i].textContent = 'C';
+                } else if (tom.value === 'C#') {
+                    I[i].textContent = 'C#';
+                } else if (tom.value === 'D') {
+                    I[i].textContent = 'D';
+                } else if (tom.value === 'Eb') {
+                    I[i].textContent = 'Eb';
+                } else if (tom.value === 'E') {
+                    I[i].textContent = 'E';
+                } else if (tom.value === 'F') {
+                    I[i].textContent = 'F';
+                } else if (tom.value === 'F#') {
+                    I[i].textContent = 'F#';
+                } else if (tom.value === 'G') {
+                    I[i].textContent = 'G';
+                } else if (tom.value === 'Ab') {
+                    I[i].textContent = 'Ab';
+                } else if (tom.value === 'A') {
+                    I[i].textContent = 'A';
+                } else if (tom.value === 'Bb') {
+                    I[i].textContent = 'Bb';
+                } else if (tom.value === 'B') {
+                    I[i].textContent = 'B';
                 }
-                for (let i = 0; i < II.length; i++) {
-                    if (tom.value === 'C'){ II[i].textContent = 'D';
-                        }else if (tom.value === 'C#'){ II[i].textContent = 'D#';
-                        }else if (tom.value === 'D'){ II[i].textContent = 'E';
-                        }else if (tom.value === 'Eb'){ II[i].textContent = 'F';
-                        }else if (tom.value === 'E'){ II[i].textContent = 'F#';
-                        }else if (tom.value === 'F'){ II[i].textContent = 'G';
-                        }else if (tom.value === 'F#'){ II[i].textContent = 'G#';
-                        }else if (tom.value === 'G'){ II[i].textContent = 'A';
-                        }else if (tom.value === 'Ab'){ II[i].textContent = 'Bb';
-                        }else if (tom.value === 'A'){ II[i].textContent = 'B';
-                        }else if (tom.value === 'Bb'){ II[i].textContent = 'C';
-                        }else if (tom.value === 'B'){ II[i].textContent = 'C#';
-                        }
-                    }
-                for (let i = 0; i < III.length; i++) {
-                    if (tom.value === 'C') {III[i].textContent = 'E';
-                        }else if (tom.value === 'C#'){III[i].textContent = 'E#';
-                        }else if (tom.value === 'D'){III[i].textContent = 'F#';
-                        }else if (tom.value === 'Eb'){III[i].textContent = 'G';
-                        }else if (tom.value === 'E'){III[i].textContent = 'G#';
-                        }else if (tom.value === 'F'){III[i].textContent = 'A';
-                        }else if (tom.value === 'F#'){III[i].textContent = 'A#';
-                        }else if (tom.value === 'G'){III[i].textContent = 'B';
-                        }else if (tom.value === 'Ab'){III[i].textContent = 'C';
-                        }else if (tom.value === 'A'){III[i].textContent = 'C#';
-                        }else if (tom.value === 'Bb'){III[i].textContent = 'D';
-                        }else if (tom.value === 'B'){III[i].textContent = 'D#';
-                        }
-                    }
-                for (let i = 0; i < IV.length; i++) {
-                    if (tom.value === 'C') {IV[i].textContent = 'F';
-                        }else if (tom.value === 'C#'){IV[i].textContent = 'F#';
-                        }else if (tom.value === 'D'){IV[i].textContent = 'G';
-                        }else if (tom.value === 'Eb'){IV[i].textContent = 'Ab';
-                        }else if (tom.value === 'E'){IV[i].textContent = 'A';
-                        }else if (tom.value === 'F'){IV[i].textContent = 'Bb';
-                        }else if (tom.value === 'F#'){IV[i].textContent = 'B';
-                        }else if (tom.value === 'G'){IV[i].textContent = 'C';
-                        }else if (tom.value === 'Ab'){IV[i].textContent = 'Db';
-                        }else if (tom.value === 'A'){IV[i].textContent = 'D';
-                        }else if (tom.value === 'Bb'){IV[i].textContent = 'Eb';
-                        }else if (tom.value === 'B'){IV[i].textContent = 'E';
-                        }
-                    }
-                for (let i = 0; i < V.length; i++) {
-                    if (tom.value === 'C') {V[i].textContent = 'G';
-                        }else if (tom.value === 'C#'){V[i].textContent = 'G#';
-                        }else if (tom.value === 'D'){V[i].textContent = 'A';
-                        }else if (tom.value === 'Eb'){V[i].textContent = 'Bb';
-                        }else if (tom.value === 'E'){V[i].textContent = 'B';
-                        }else if (tom.value === 'F'){V[i].textContent = 'C';
-                        }else if (tom.value === 'F#'){V[i].textContent = 'C#';
-                        }else if (tom.value === 'G'){V[i].textContent = 'D';
-                        }else if (tom.value === 'Ab'){V[i].textContent = 'Eb';
-                        }else if (tom.value === 'A'){V[i].textContent = 'E';
-                        }else if (tom.value === 'Bb'){V[i].textContent = 'F';
-                        }else if (tom.value === 'B'){V[i].textContent = 'F#';
-                        }
-                    }
-                for (let i = 0; i < VI.length; i++) {
-                    if (tom.value === 'C') {VI[i].textContent = 'A';
-                        }else if (tom.value === 'C#'){VI[i].textContent = 'A#';
-                        }else if (tom.value === 'D'){VI[i].textContent = 'B';
-                        }else if (tom.value === 'Eb'){VI[i].textContent = 'C';
-                        }else if (tom.value === 'E'){VI[i].textContent = 'C#';
-                        }else if (tom.value === 'F'){VI[i].textContent = 'D';
-                        }else if (tom.value === 'F#'){VI[i].textContent = 'D#';
-                        }else if (tom.value === 'G'){VI[i].textContent = 'E';
-                        }else if (tom.value === 'Ab'){VI[i].textContent = 'F';
-                        }else if (tom.value === 'A'){VI[i].textContent = 'F#';
-                        }else if (tom.value === 'Bb'){VI[i].textContent = 'G';
-                        }else if (tom.value === 'B'){VI[i].textContent = 'G#';
-                        }
-                    }
-                for (let i = 0; i < VII.length; i++) {
-                    if (tom.value === 'C') {VII[i].textContent = 'B';
-                        }else if (tom.value === 'C#'){VII[i].textContent = 'B#';
-                        }else if (tom.value === 'D'){VII[i].textContent = 'C#';
-                        }else if (tom.value === 'Eb'){VII[i].textContent = 'D';
-                        }else if (tom.value === 'E'){VII[i].textContent = 'D#';
-                        }else if (tom.value === 'F'){VII[i].textContent = 'E';
-                        }else if (tom.value === 'F#'){VII[i].textContent = 'E#';
-                        }else if (tom.value === 'G'){VII[i].textContent = 'F#';
-                        }else if (tom.value === 'Ab'){VII[i].textContent = 'G';
-                        }else if (tom.value === 'A'){VII[i].textContent = 'G#';
-                        }else if (tom.value === 'Bb'){VII[i].textContent = 'A';
-                        }else if (tom.value === 'B'){VII[i].textContent = 'A#';
-                        }
-                    }
+            }
+            for (let i = 0; i < II.length; i++) {
+                if (tom.value === 'C') {
+                    II[i].textContent = 'D';
+                } else if (tom.value === 'C#') {
+                    II[i].textContent = 'D#';
+                } else if (tom.value === 'D') {
+                    II[i].textContent = 'E';
+                } else if (tom.value === 'Eb') {
+                    II[i].textContent = 'F';
+                } else if (tom.value === 'E') {
+                    II[i].textContent = 'F#';
+                } else if (tom.value === 'F') {
+                    II[i].textContent = 'G';
+                } else if (tom.value === 'F#') {
+                    II[i].textContent = 'G#';
+                } else if (tom.value === 'G') {
+                    II[i].textContent = 'A';
+                } else if (tom.value === 'Ab') {
+                    II[i].textContent = 'Bb';
+                } else if (tom.value === 'A') {
+                    II[i].textContent = 'B';
+                } else if (tom.value === 'Bb') {
+                    II[i].textContent = 'C';
+                } else if (tom.value === 'B') {
+                    II[i].textContent = 'C#';
+                }
+            }
+            for (let i = 0; i < III.length; i++) {
+                if (tom.value === 'C') {
+                    III[i].textContent = 'E';
+                } else if (tom.value === 'C#') {
+                    III[i].textContent = 'E#';
+                } else if (tom.value === 'D') {
+                    III[i].textContent = 'F#';
+                } else if (tom.value === 'Eb') {
+                    III[i].textContent = 'G';
+                } else if (tom.value === 'E') {
+                    III[i].textContent = 'G#';
+                } else if (tom.value === 'F') {
+                    III[i].textContent = 'A';
+                } else if (tom.value === 'F#') {
+                    III[i].textContent = 'A#';
+                } else if (tom.value === 'G') {
+                    III[i].textContent = 'B';
+                } else if (tom.value === 'Ab') {
+                    III[i].textContent = 'C';
+                } else if (tom.value === 'A') {
+                    III[i].textContent = 'C#';
+                } else if (tom.value === 'Bb') {
+                    III[i].textContent = 'D';
+                } else if (tom.value === 'B') {
+                    III[i].textContent = 'D#';
+                }
+            }
+            for (let i = 0; i < IV.length; i++) {
+                if (tom.value === 'C') {
+                    IV[i].textContent = 'F';
+                } else if (tom.value === 'C#') {
+                    IV[i].textContent = 'F#';
+                } else if (tom.value === 'D') {
+                    IV[i].textContent = 'G';
+                } else if (tom.value === 'Eb') {
+                    IV[i].textContent = 'Ab';
+                } else if (tom.value === 'E') {
+                    IV[i].textContent = 'A';
+                } else if (tom.value === 'F') {
+                    IV[i].textContent = 'Bb';
+                } else if (tom.value === 'F#') {
+                    IV[i].textContent = 'B';
+                } else if (tom.value === 'G') {
+                    IV[i].textContent = 'C';
+                } else if (tom.value === 'Ab') {
+                    IV[i].textContent = 'Db';
+                } else if (tom.value === 'A') {
+                    IV[i].textContent = 'D';
+                } else if (tom.value === 'Bb') {
+                    IV[i].textContent = 'Eb';
+                } else if (tom.value === 'B') {
+                    IV[i].textContent = 'E';
+                }
+            }
+            for (let i = 0; i < V.length; i++) {
+                if (tom.value === 'C') {
+                    V[i].textContent = 'G';
+                } else if (tom.value === 'C#') {
+                    V[i].textContent = 'G#';
+                } else if (tom.value === 'D') {
+                    V[i].textContent = 'A';
+                } else if (tom.value === 'Eb') {
+                    V[i].textContent = 'Bb';
+                } else if (tom.value === 'E') {
+                    V[i].textContent = 'B';
+                } else if (tom.value === 'F') {
+                    V[i].textContent = 'C';
+                } else if (tom.value === 'F#') {
+                    V[i].textContent = 'C#';
+                } else if (tom.value === 'G') {
+                    V[i].textContent = 'D';
+                } else if (tom.value === 'Ab') {
+                    V[i].textContent = 'Eb';
+                } else if (tom.value === 'A') {
+                    V[i].textContent = 'E';
+                } else if (tom.value === 'Bb') {
+                    V[i].textContent = 'F';
+                } else if (tom.value === 'B') {
+                    V[i].textContent = 'F#';
+                }
+            }
+            for (let i = 0; i < VI.length; i++) {
+                if (tom.value === 'C') {
+                    VI[i].textContent = 'A';
+                } else if (tom.value === 'C#') {
+                    VI[i].textContent = 'A#';
+                } else if (tom.value === 'D') {
+                    VI[i].textContent = 'B';
+                } else if (tom.value === 'Eb') {
+                    VI[i].textContent = 'C';
+                } else if (tom.value === 'E') {
+                    VI[i].textContent = 'C#';
+                } else if (tom.value === 'F') {
+                    VI[i].textContent = 'D';
+                } else if (tom.value === 'F#') {
+                    VI[i].textContent = 'D#';
+                } else if (tom.value === 'G') {
+                    VI[i].textContent = 'E';
+                } else if (tom.value === 'Ab') {
+                    VI[i].textContent = 'F';
+                } else if (tom.value === 'A') {
+                    VI[i].textContent = 'F#';
+                } else if (tom.value === 'Bb') {
+                    VI[i].textContent = 'G';
+                } else if (tom.value === 'B') {
+                    VI[i].textContent = 'G#';
+                }
+            }
+            for (let i = 0; i < VII.length; i++) {
+                if (tom.value === 'C') {
+                    VII[i].textContent = 'B';
+                } else if (tom.value === 'C#') {
+                    VII[i].textContent = 'B#';
+                } else if (tom.value === 'D') {
+                    VII[i].textContent = 'C#';
+                } else if (tom.value === 'Eb') {
+                    VII[i].textContent = 'D';
+                } else if (tom.value === 'E') {
+                    VII[i].textContent = 'D#';
+                } else if (tom.value === 'F') {
+                    VII[i].textContent = 'E';
+                } else if (tom.value === 'F#') {
+                    VII[i].textContent = 'E#';
+                } else if (tom.value === 'G') {
+                    VII[i].textContent = 'F#';
+                } else if (tom.value === 'Ab') {
+                    VII[i].textContent = 'G';
+                } else if (tom.value === 'A') {
+                    VII[i].textContent = 'G#';
+                } else if (tom.value === 'Bb') {
+                    VII[i].textContent = 'A';
+                } else if (tom.value === 'B') {
+                    VII[i].textContent = 'A#';
+                }
+            }
         }
     }
 }
