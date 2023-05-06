@@ -152,7 +152,33 @@ Que Tu és bom
     "andamento": 70,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=uxTc98K9OeU",
-    "cifra": ""
+    "cifra": `
+    <pre>
+    O ambiente já mudou
+    O espírito está aqui
+    Há evidência em todo lugar
+    E o Espírito está aqui
+
+    flue neste lugar
+    Enche-nos com Teu amor
+    Teu amor nos envolve
+    Deus estamos aqui
+    Pra encontrar Teu amor
+    Teu amor nos envolve
+
+    Espírito de Deus
+    Vem sobre nós
+    Te desejamos
+    teu reino vem
+    Faz Teu querer 
+    Aqui na Terra
+
+    O milagre vai acontecer
+    Teu Espírito está aqui
+    Há evidência em todo lugar
+    E o Espírito está aqui
+    </pre>
+    `
   },
   {
     "id": 7,
@@ -164,7 +190,42 @@ Que Tu és bom
     "andamento": 75,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=P3SA6fO2_Ng",
-    "cifra": ""
+    "cifra": `
+<pre>
+Paz, encontrei a paz
+Os ventos cessarão
+Ao ouvir Sua voz
+Paz que acalmou o mar
+As ondas cessarão
+Com o poder da Sua voz
+
+Jesus, Jesus
+As trevas estremecem
+Jesus, Jesus
+Não temerei
+
+Teu vento sopra em mim
+Tudo eu dou a Ti
+Outra vez cantarei
+
+Jesus, Jesus
+As trevas estremecem
+Jesus, Jesus
+Não temerei
+
+Teu nome é luz
+E as trevas fugirão
+Não há outro nome igual
+Com o Teu poder
+Pra sempre reinarás
+Não há outro nome igual
+
+Jesus, Jesus
+As trevas estremecem
+Jesus, Jesus
+Não temerei
+</pre>
+`
   },
   {
     "id": 8,
@@ -224,7 +285,52 @@ Tua Glória contemplar
     "andamento": 70,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=mZ9yZYo9Mmk",
-    "cifra": ""
+    "cifra": `
+<pre>
+Te amo, Deus
+Tua graça nunca falha
+Todos os dias
+Eu estou em Tuas mãos
+
+Desde quando me levanto
+Até eu me deitar
+Eu cantarei da bondade de Deus
+
+És fiel em todo tempo
+Em todo tempo Tu és tão, tão bom
+Com todo fôlego que tenho
+Eu cantarei da bondade de Deus
+
+Tua doce voz
+Que me guia em meio ao fogo
+Na escuridão
+Tua presença me conforta
+
+Sei que és meu Pai
+Que amigo és
+Eu vivo na bondade de Deus
+
+És fiel em todo tempo
+Em todo tempo Tu és tão, tão bom
+Com todo fôlego que tenho
+Eu cantarei da bondade de Deus
+
+Tua bondade me seguirá
+Me seguirá, Senhor
+Tua bondade me seguirá
+Me seguirá, Senhor
+
+Eu me rendo a Ti, te dou o meu ser
+Entrego tudo a Ti
+Tua bondade me seguirá
+Me seguirá, Senhor
+
+És fiel em todo tempo
+Em todo tempo Tu és tão, tão bom
+Com todo fôlego que tenho
+Eu cantarei da bondade de Deus
+</pre>
+`
   },
   {
     "id": 10,
@@ -303,7 +409,36 @@ Há poder no nome de Jesus
     "andamento": 70,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=iJCV_2H9xD0",
-    "cifra": ""
+    "cifra": `
+<pre>
+Estás aqui movendo entre nós
+Te adorarei, Te adorarei
+Estás aqui operando milagres
+Te adorarei, Te adorarei
+
+Meu Deus é
+Deus de milagres, Deus de promessas
+Caminho no deserto, luz na escuridão
+Meu Deus, Esse é quem Tu és
+
+Estás aqui tocando os corações
+Te adorarei, Te adorarei
+Estás aqui curando multidões
+Te adorarei, Te adorarei
+
+Meu Deus é
+Deus de milagres, Deus de promessas
+Caminho no deserto, luz na escuridão
+Meu Deus, Esse é quem Tu és
+
+Mesmo quando não vejo está agindo
+Mesmo quando não sinto está agindo
+Nunca parou, nunca parou de agir
+Nunca parou, nunca parou de agir
+
+Jeová, Jeová, Jeová Rafah, Ele cura
+</pre>
+`
   },
   {
     "id": 12,
@@ -471,7 +606,48 @@ Sou atraído pelo Teu olhar
     "andamento": 73,
     "compasso": "6/8",
     "linkYoutube": "https://www.youtube.com/watch?v=wcDgUIy-lJY",
-    "cifra": ""
+    "cifra": `
+<pre>
+Foi tão difícil ver
+Demorei tanto a crer
+Que Você me escolheu
+Pra ser um vencedor
+Mesmo sem merecer
+Leva-me a perfeição
+Restauras o meu ser
+Pra Tua glória
+
+Tu és meu campeão
+Gigantes cairão
+Invencível
+Deus que nunca perdeu
+Eu sou quem dizes que eu sou
+confio somente em Ti
+Me colocas no mais alto lugar
+Invencível
+Junto ao Deus que tudo conquistou
+
+Agora posso ver
+Me ensinas a receber
+Tudo entrego a Ti
+Vitória tenho em Ti
+
+Tu és meu campeão
+Gigantes cairão
+Invencível
+Deus que nunca perdeu
+Eu sou quem dizes que eu sou
+confio somente em Ti
+Me colocas no mais alto lugar
+Invencível
+Junto ao Deus que tudo conquistou
+
+Ao erguer a minha voz
+As muralhas ruirão
+Autoridade e poder
+Cristo me concedeu
+</pre>
+`
   },
   {
     "id": 16,
@@ -521,11 +697,38 @@ Livre sou, livre sou
     "subtitulo": "",
     "interprete": "Davi Fernandes",
     "tomFeminino": "",
-    "tomMasculino": "",
+    "tomMasculino": "Am",
     "andamento": 65,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=0Dg3gyZ1MzY",
-    "cifra": ""
+    "cifra": `
+<pre>
+Aqui na terra como no céu
+Toma o Teu lugar
+Na terra como no céu
+Aqui na terra como no céu
+Toma o Teu lugar
+Na terra como no céu
+
+Venha o Teu Reino
+Venha o Teu Governo
+Flua a cultura
+Que vem do céu
+Venha o Teu Reino
+Venha o Teu Governo
+Flua a cultura
+Que vem do céu
+
+Te convidamos
+Te desejamos
+Rei da glória
+Toma o Teu lugar
+Te convidamos
+Te desejamos
+Rei da glória
+Toma o Teu lugar
+</pre>
+`
   },
   {
     "id": 18,
@@ -537,7 +740,28 @@ Livre sou, livre sou
     "andamento": 67,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=951YV69gYaQ",
-    "cifra": ""
+    "cifra": `
+<pre>
+Ouvi o meu Senhor bater na porta
+E o meu coração queimou
+Ouvi o meu Senhor bater na porta
+E o meu coração queimou
+
+Eu não vou parar
+Gastarei minha vida aos teus pés
+E eu não vou parar
+Gastarei minha vida aos teus pés
+
+Eu tenho fogo cerrado em meu peito
+Que não me dá descanso, eu não tenho descanso
+Eu tenho fogo cerrado em meu peito
+Que não me dá descanso, eu não tenho descanso
+
+Deixa queimar, deixa queimar
+Deixa queimar, deixa queimar
+Deixa queimar, deixa queimar
+</pre>
+`
   },
   {
     "id": 19,
@@ -549,7 +773,34 @@ Livre sou, livre sou
     "andamento": 62,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=Ak5WTb-mgeA",
-    "cifra": ""
+    "cifra": `
+<pre>
+A minha cruz levou para me dar
+Liberdade pra sempre
+A minha vida dou e cantarei
+Tua bondade pra sempre
+
+Digno é teu nome, Jesus
+Teu é o louvor, Digno é o Senhor
+Digno é teu nome, Jesus
+Teu é o louvor, Digno é o Senhor
+
+Vergonha já se foi e em mim ficou
+Seu amor, que me alcançou
+Sua graça me constrange e cantarei
+Tua bondade para sempre
+
+Digno é teu nome, Jesus
+Teu é o louvor, Digno é o Senhor
+Digno é teu nome, Jesus
+Teu é o louvor, Digno é o Senhor
+
+Seja exaltado nos céus
+Com tua glória enche-nos
+A Ti todo louvor
+O Teu nome adorarei
+</pre>
+`
   },
   {
     "id": 20,
@@ -561,7 +812,21 @@ Livre sou, livre sou
     "andamento": 45,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=h8tOJIvCM-s",
-    "cifra": ""
+    "cifra": `
+<pre>
+Digno de glória e honra
+Levantamos nossas mãos
+Pra Teu nome exaltar
+Digno de glória e honra
+Levantamos nossas mãos
+Pra Teu nome exaltar
+
+Porque grande és Tu
+Maravilhas fazes Tu
+Não há outro igual a Ti
+Não há outro igual a Ti
+</pre>
+`
   },
   {
     "id": 21,
@@ -1029,7 +1294,24 @@ Pra conhecer-te mais
     "andamento": 70,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=nSvxVCdj_gU",
-    "cifra": ""
+    "cifra": `
+<pre>
+Eu navegarei
+No oceano do Espírito
+E ali adorarei
+Ao Deus do meu amor
+
+Eu adorarei
+Ao Deus da minha vida
+Que me compreendeu
+Sem nenhuma explicação
+
+Espírito, Espírito
+Que desce como fogo
+Vem como em Pentecostes
+E enche-me de novo
+</pre>
+`
   },
   {
     "id": 33,
@@ -1041,7 +1323,34 @@ Pra conhecer-te mais
     "andamento": 65,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=SFiu3KLNd34",
-    "cifra": ""
+    "cifra": `
+<pre>
+Eu Te vejo em tudo
+Na formação das nuvens tem Você
+Ouço o Seu sussurro
+Na brisa que vem do amanhecer
+Na dança do mar, ouço a Sua voz ecoar
+E ao Seu soprar, posso ver criar a vida
+
+Aleluia!
+Toda criação a cantar!
+Aleluia!
+Toda criação Te louva!
+Aleluia!
+Toda criação a cantar!
+Aleluia!
+Toda criação Te louva!
+
+Tudo que eu vejo
+Me faz lembrar Você
+Do menor ao maior
+Me faz lembrar Você
+Tudo o que eu sinto
+O ar que eu respiro
+Só penso em Você
+Oh, aleluia!
+</pre>
+`
   },
   {
     "id": 34,
@@ -1053,7 +1362,32 @@ Pra conhecer-te mais
     "andamento": 73,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=1htnqzaKLP8",
-    "cifra": ""
+    "cifra": `
+<pre>
+Digno desta canção só Tu és, Senhor
+Digno do meu louvor só Tu és, Senhor
+Digno da minha vida Tu és, Senhor
+Oh, eu sou teu
+
+Nome que é sobre todos é o Teu, Jesus
+Fonte da salvação só Tu és, Jesus
+Digno da minha vida Tu és, Jesus
+Oh, eu sou teu
+Eu sou teu
+
+Santo
+És incomparável
+És inigualável
+Abre os meus olhos, Senhor
+Mostra quem Tu és e enche o meu coração
+Do amor que faz mudar o mundo
+
+Eu vou construir minha vida em Ti
+Tu és meu fundamento
+Eu vou confiar somente em Ti
+Não vou ser abalado
+</pre>
+`
   },
   {
     "id": 35,
@@ -1065,7 +1399,38 @@ Pra conhecer-te mais
     "andamento": 120,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=tfwVzJAnEHQ",
-    "cifra": ""
+    "cifra": `
+<pre>
+Existe um rio onde tudo é bom
+E uma nascente bem maior que a dor
+Um oceano sem medo nenhum
+Maré que sobe, que sobe
+
+Existe um rio se movendo em mim
+Vem transbordando o amor de Deus
+Com toda força vindo sobre nós
+Maré que sobe, que sobe
+
+Rompe, rompe
+Podemos sentir a terra se abrir
+Rompe, rompe
+Podemos sentir a terra se abrir
+
+Nós temos vida no rio
+Nós temos vida no rio
+Nós temos vida no rio
+Nós temos vida no rio
+
+Cadeias vão quebrar 
+E os presos libertar
+Teu rio fluir, Teu rio fluir
+Teu rio fluir de nós
+Vamos nos alegrar
+Nas ruas vamos dançar
+Teu rio fluir, Teu rio fluir
+Teu rio fluir de nós
+</pre>
+`
   },
   {
     "id": 36,
@@ -1077,7 +1442,23 @@ Pra conhecer-te mais
     "andamento": 67,
     "compasso": "4/4",
     "linkYoutube": "#",
-    "cifra": ""
+    "cifra": `
+    Tu és a minha fonte inesgotável
+    Um rio de águas vivas que flui em mim
+    Eu viverei o extraordinário
+    Vou mergulhar mais fundo em Tua presença
+
+    Rio de Deus
+    Flua em mim
+    Quero mergulhar mais fundo em Ti
+
+    Eu entro no Teu rio
+    lavo no Teu rio
+    me alegro no Teu rio, no Teu rio, no Teu rio
+    me movo no Teu rio
+    me saro no Teu rio
+    celebro no Teu rio, no Teu rio, no Teu rio
+    `
   },
   {
     "id": 37,
@@ -1089,7 +1470,42 @@ Pra conhecer-te mais
     "andamento": 86,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=ZOBIPb-6PTc",
-    "cifra": ""
+    "cifra": `
+<pre>
+Voltas ao muro dou
+Penso que vai ruir
+Mas você nunca me falhou
+Espero a mudança vir
+Sei que venceu por mim
+Pois você nunca me falhou
+
+Promessas sem fim
+Tu és um Deus fiel a mim
+Um Deus fiel
+Estou em tuas mãos
+Em ti confiarei
+Você nunca falhou
+
+A noite cessará
+Promessas se cumprirão
+Meu coração te louvará
+Suficiente a mim
+Guarda-me em teu amor
+Meu coração te louvará
+
+Promessas sem fim
+Tu és um Deus fiel a mim
+Um Deus fiel
+Estou em tuas mãos
+Em ti confiarei
+Você nunca falhou
+
+Eu vi você mover montanhas
+Eu creio que Você fará outra vez
+Fez um caminho onde não tinha
+Eu creio que Você fará outra vez
+</pre>
+`
   },
   {
     "id": 38,
@@ -1101,7 +1517,29 @@ Pra conhecer-te mais
     "andamento": 68,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=PdJoTcOgwUA",
-    "cifra": ""
+    "cifra": `
+<pre>
+Verbo vivo viveu entre nós
+Filho do homem, filho de Deus
+Curando os enfermos, livrando os cativos
+Era chegado o Reino de Deus
+
+Foi humilhado, crucificado
+Tão rejeitado pelos seus
+Ressuscitado, glorificado
+O inferno e a morte venceu
+
+E agora quem dizem que Tu és
+Um profeta, um agitador qualquer
+Teu Espírito me revela quem Tu és
+Ungido de Deus!
+
+Tu és o Cristo, filho do Deus vivo
+Sobre esta rocha Tua igreja está
+Tu és o Cristo, filho do Deus vivo
+Rocha inabalável, outro igual não há
+</pre>
+`
   },
   {
     "id": 39,
@@ -1113,7 +1551,43 @@ Pra conhecer-te mais
     "andamento": 65,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=3RLZBfA2ixs",
-    "cifra": ""
+    "cifra": `
+<pre>
+Existe um trono colocado no mais alto lugar
+Rodeado de anjos, onde Deus reina
+E a minha vida, Ele governa
+E a minha vida, Ele governa
+
+E esse Rei veio a mim
+Com Seus olhos em chamas
+E eu perguntei sobre os Seus olhos
+Sorrindo, me disse, eh
+
+O fogo nunca dorme
+O fogo nunca apaga
+Nunca apagará, não, não, não
+Deus nunca morre
+Deus nunca é vencido
+Nunca é vencido
+
+Existe um amor mais ciumento que a morte
+Existe um amor mais ciumento que a morte
+E a minha vida, Ele governa
+E a minha vida, Ele governa
+
+E esse amor veio a mim
+Com os Seus olhos em chamas
+E eu perguntei sobre os Seus olhos
+Sorrindo, me disse, ah
+
+O fogo nunca dorme
+O fogo nunca apaga
+Nunca apagará, não
+Deus nunca morre
+Deus nunca é vencido
+Nunca é vencido
+</pre>
+`
   },
   {
     "id": 40,
@@ -1137,7 +1611,32 @@ Pra conhecer-te mais
     "andamento": 152,
     "compasso": "6/8",
     "linkYoutube": "https://www.youtube.com/watch?v=ceCMxv72Uqw",
-    "cifra": ""
+    "cifra": `
+<pre>
+Entra, tudo aqui é Teu, a casa está pronta
+Estamos esperando pra Te encontrar
+Brilha Tua Glória e nos envolva com Teu fogo
+Vem e toma o Teu lugar
+
+Nós invocamos: Acende a chama
+E que venha o Teu Reino
+Nós nos rendemos e tudo entregamos
+Pra sempre cantaremos
+
+Nós invocamos: Acende a chama
+E que venha o Teu Reino
+Nós nos rendemos e tudo entregamos
+Pra sempre cantaremos
+
+Hosana, Hosana
+O Noivo vem
+O Noivo vem
+
+Hosana, Hosana
+O Noivo vem
+O Noivo vem
+</pre>
+`
   },
   {
     "id": 42,
@@ -1149,7 +1648,56 @@ Pra conhecer-te mais
     "andamento": 105,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=qehwr2MMTqg",
-    "cifra": ""
+    "cifra": `
+<pre>  
+Deus está lutando
+Ele é por nós
+Ele triunfou
+Sim, ele triunfou
+Estaremos firmes
+Sem temor algum
+Jesus está aqui
+
+Leva nosso fardo
+Pecado também
+Ele triunfou
+Sim, ele triunfou
+Estaremos firmes
+Sem temor algum
+Jesus está aqui
+
+Viverei, não morrerei
+O poder da ressurreição
+É vivo em mim, sou livre
+Em Nome de Jesus
+
+Leva nosso fardo
+Pecado também
+Ele triunfou
+Sim, ele triunfou
+Estaremos firmes
+Sem temor algum
+Jesus está aqui
+
+Viverei, não morrerei
+O poder da ressurreição
+É vivo em mim, sou livre
+Em nome de Jesus
+Viverei, não morrerei
+Com minha voz exaltarei
+Eu sei que sou curado em
+Nome de Jesus
+
+Deus está lutando
+Dissipando as trevas
+Trazendo seu Reino
+Firmado pra sempre
+No nome de Cristo
+Cai o inimigo
+E bradaremos
+Grande é o Senhor
+</pre>
+`
   },
   {
     "id": 43,
@@ -1161,7 +1709,25 @@ Pra conhecer-te mais
     "andamento": 58,
     "compasso": "4/4",
     "linkYoutube": "https://www.youtube.com/watch?v=1OocIh8MLr0",
-    "cifra": ""
+    "cifra": `
+<pre>
+Já estive em outros lugares
+Mas não há lugar melhor
+Não há lugar melhor
+
+Aqui, aqui
+Na mesa do banquete
+Na mesa do banquete
+
+Jesus, tu és o primeiro
+Onde tudo foi feito
+É tudo sobre Ti
+
+Tu és o meu consolo
+Caminho seguro
+Meu grande Salvador
+</pre>
+`
   },
   {
     "id": 44,
