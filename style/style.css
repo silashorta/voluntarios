@@ -134,3 +134,9 @@ pre{
     font-family: var(--opensans);
     height: 200px;
 }
+
+.card_item:hover{
+    opacity: 0.75;
+    transition: 0.75s;
+    cursor: pointer;
+}
