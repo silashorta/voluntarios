@@ -135,8 +135,40 @@ pre{
     height: 200px;
 }
 
+.card_item{
+    height: auto;
+}
 .card_item:hover{
     opacity: 0.75;
     transition: 0.75s;
     cursor: pointer;
+}
+
+.descricao{
+    max-height: 150px;
+}
+
+.descricao_texto{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dia,
+.diaSemana{
+    text-align: center;
+}
+.semana:hover,
+.dia:hover{
+   cursor: pointer; 
+}
+
+.dia:hover{
+    background-color: var(--cinza);
+    font-weight: 700;
+    transition: all 0.25s;
+}
+
+.diaVerificado{
+    background-color: var(--cinza);
+    font-weight: 700;
 }

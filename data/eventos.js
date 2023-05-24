@@ -13,7 +13,7 @@ const eventos = [
         "titulo": "MDWK",
         "data": "18/05/2023",
         "horario": "19:00",
-        "descricao": "Culto de MDWK",
+        "descricao": "",
         "cancoes": ['altar', 'a benção'],
         "voluntarios": ['silas', 'ester'],
     },
