@@ -34,6 +34,15 @@ const eventos = [
         "descricao": "Culto",
         "cancoes": [],
         "voluntarios": [],
+    },
+    {
+        "id": 5,
+        "titulo": "Ensaio Janeiro",
+        "data": "01/01/2023",
+        "horario": "23:00",
+        "descricao": "Culto",
+        "cancoes": [],
+        "voluntarios": [],
     }
 ]
 export default eventos;

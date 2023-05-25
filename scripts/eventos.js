@@ -39,7 +39,6 @@ for (let i = 0; i < eventos.length; i++) {
     console.log(dataEventos, day);
     
     const diaCalendario = document.querySelectorAll(".dia");
-    console.log(diaCalendario);
     
     const diaVerificado = diaCalendario[day];
     if (diaVerificado) {

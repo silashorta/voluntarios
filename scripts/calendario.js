@@ -27,6 +27,7 @@ const diasSemana = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
 for (let i = 0; i < 7; i++) {
     const celulaCabecalho = document.createElement('th');
     celulaCabecalho.textContent = diasSemana[i];
+    celulaCabecalho.className = "text-center"
     linhaCabecalho.appendChild(celulaCabecalho);
 }
 
@@ -93,10 +94,11 @@ function atualizarCalendario() {
     const cabecalho = calendario.createTHead();
     const linhaCabecalho = cabecalho.insertRow();
     const diasSemana = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
-
+    
     for (let i = 0; i < 7; i++) {
         const celulaCabecalho = document.createElement('th');
         celulaCabecalho.textContent = diasSemana[i];
+        celulaCabecalho.className = "text-center"
         linhaCabecalho.appendChild(celulaCabecalho);
     }
 
@@ -107,41 +109,41 @@ function atualizarCalendario() {
     let dia = 1;
 
     for (let i = 0; i < 6; i++) {
-        const linha = corpoTabela.insertRow();
-
-        for (let j = 0; j < 7; j++) {
-            const celula = linha.insertCell();
-            celula.className = "dia"
-            if (i === 0 && j < diaSemana) {
-                // Preencher células vazias antes do primeiro dia do mês
-                celula.textContent = '';
-            } else if (dia > 31) {
-                // Parar de gerar dias se exceder 31
-                break;
-            } else {
-                // Preencher as células com os dias do calendário
-                celula.textContent = dia;
-                dia++;
+      const linha = corpoTabela.insertRow();
+    
+      for (let j = 0; j < 7; j++) {
+        const celula = linha.insertCell();
+        celula.className = "dia";
+    
+        if (i === 0 && j < diaSemana) {
+          // Preencher células vazias antes do primeiro dia do mês
+          celula.textContent = "";
+        } else if (dia > 31) {
+          // Parar de gerar dias se exceder 31
+          break;
+        } else {
+          // Preencher as células com os dias do calendário
+          celula.textContent = dia;
+    
+          const diaEvento = document.querySelectorAll(".dataEvento");
+    
+          diaEvento.forEach((element) => {
+            const parts = element.textContent.split("/");
+            const dayEvent = parseInt(parts[0]);
+            const monthEvent = parseInt(parts[1]);
+    
+            if (dia === dayEvent && mes + 1 === monthEvent) {
+              celula.style.fontWeight = "bold";
+              celula.style.backgroundColor = "var(--cinza)";
             }
-            
-            const diaEvento = document.querySelectorAll('.dataEvento');
-  
-            diaEvento.forEach(element => {
-              const parts = element.textContent.split('/');
-              const dayEvent = parseInt(parts[0]);
-              const monthEvent = parseInt(parts[1])
-              console.log(parts[0], dayEvent)
-              
-              if (dia == dayEvent) {
-                
-                celula.style.fontWeight = "bold";
-                celula.style.backgroundColor = "var(--cinza)";
-              }
-            });
+          });
+    
+          dia++;
         }
+      }
     }
-
-    containerCalendario.appendChild(calendario)
-}
+      
+      containerCalendario.appendChild(calendario);
+    }      
 
 
