@@ -20,7 +20,7 @@ const eventos = [
     {
         "id": 3,
         "titulo": "Culto",
-        "data": "01/05/2023",
+        "data": "01/02/2023",
         "horario": "23:00",
         "descricao": "Culto",
         "cancoes": [],
@@ -43,6 +43,16 @@ const eventos = [
         "descricao": "Culto",
         "cancoes": [],
         "voluntarios": [],
+    },
+    {
+        "id": 6,
+        "titulo": "Treinamento de Voluntários",
+        "data": "24/05/2023",
+        "horario": "15:00",
+        "descricao": "Treinamento de Voluntários abençoado",
+        "cancoes": [],
+        "voluntarios": [],
     }
+    
 ]
 export default eventos;

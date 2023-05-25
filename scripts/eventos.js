@@ -1,12 +1,11 @@
 import eventos from "../data/eventos.js"
 
-
-
 for (let i = 0; i < eventos.length; i++) {
     const element = eventos[i];
 
     const eventosContainer = document.querySelector('#eventos__main')
     const eventosItem = document.createElement('div')
+    eventosItem.id = "eventosItem"
     eventosContainer.className = 'row row-cols-1 row-cols-md-3 g-4'
     eventosContainer.appendChild(eventosItem)
     eventosItem.innerHTML = `
@@ -35,16 +34,53 @@ for (let i = 0; i < eventos.length; i++) {
     const month = parseInt(parts[1], 10) - 1;
     const year = parseInt(parts[2], 10);
     const dataEventos = new Date(year, month, day);
-    
-    console.log(dataEventos, day);
-    
+
     const diaCalendario = document.querySelectorAll(".dia");
-    
+
     const diaVerificado = diaCalendario[day];
     if (diaVerificado) {
-      diaVerificado.style.fontWeight = "bold";
-      diaVerificado.style.backgroundColor = "var(--cinza)";
+        diaVerificado.style.fontWeight = "bold";
+        diaVerificado.style.backgroundColor = "var(--cinza)";
     }
-    
+
 }
+
+// Ordena os eventos visualmente na tela preservando a ordem de inclusão no enventos.js na pasta data
+const itensEventos = Array.from(document.querySelectorAll(".dataEvento"));
+
+// Criar um array com os valores das datas
+const datas = itensEventos.map((element) => element.textContent);
+
+// Ordenar o array de datas
+datas.sort((a, b) => {
+    const [diaA, mesA, anoA] = a.split('/').map(Number);
+    const [diaB, mesB, anoB] = b.split('/').map(Number);
+
+    if (anoA !== anoB) {
+        return anoB - anoA; // Comparar anos
+    }
+    if (mesA !== mesB) {
+        return mesB - mesA; // Comparar meses
+    }
+    return diaB - diaA; // Comparar dias
+});
+
+const divItens = document.querySelectorAll("#eventos__main");
+divItens.forEach((divItem) => {
+    divItem.innerHTML = ""; // Limpar o conteúdo de cada elemento #eventosItem
+});
+
+// Iterar sobre as datas ordenadas e criar o HTML dinamicamente
+datas.forEach((data) => {
+    const evento = itensEventos.find((element) => element.textContent === data);
+    const cardItem = evento.closest('.card_item');
+    divItens.forEach((divItem) => {
+        divItem.innerHTML += `
+        <div class="container">
+            <div class="col">
+                ${cardItem.outerHTML}
+            </div>
+        </div>` // Adicionar o HTML do cardItem em cada elemento #eventosItem
+    });
+});
 

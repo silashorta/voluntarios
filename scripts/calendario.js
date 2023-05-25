@@ -56,6 +56,7 @@ for (let i = 0; i < 6; i++) {
             celula.textContent = dia;
             dia++;
         }
+
     }
 }
 

@@ -136,6 +136,7 @@ pre{
 }
 
 .card_item{
+    margin: 16px 0;
     height: auto;
 }
 .card_item:hover{
