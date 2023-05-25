@@ -39,6 +39,7 @@ for (let i = 0; i < eventos.length; i++) {
 
     const diaVerificado = diaCalendario[day];
     if (diaVerificado) {
+        diaVerificado.style.textAlign = "center"
         diaVerificado.style.fontWeight = "bold";
         diaVerificado.style.backgroundColor = "var(--cinza)";
     }

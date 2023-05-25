@@ -1,6 +1,6 @@
 const integrantes = [
     {
-        "id": 0,
+        "id": "",
         "nome": "",
         "sobrenome": "",
         "posicao": "",

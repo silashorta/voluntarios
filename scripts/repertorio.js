@@ -5,8 +5,7 @@ insereDados()
 
 //FUNÇAO TONALIDADE
 const tonalidade = document.querySelector('.tonalidade')
-tonalidade.innerHTML =
-    ``
+tonalidade.innerHTML = ``
 
 //FUNÇÃO INSERIR TABELA DINÂMICA
 function insereDados() {
