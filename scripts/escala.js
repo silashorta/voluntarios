@@ -86,6 +86,16 @@ function btnAddCancoes() {
     divSelectCancoes.insertBefore(novoDivCancoes, document.querySelector('#adicionarCancoes'));
 }
 
+const horarioEscala = document.querySelector("#horario__escala")
+// Criar um novo objeto Date
+const dataHoraAtual = new Date();
+
+// Extrair o horário atual
+const horarioAtual = `Criado em ${dataHoraAtual.toLocaleString()}`
+
+horarioEscala.innerHTML = horarioAtual
+
+
 //FUNÇÃO ENVIAR ESCALA
 const titulo = document.querySelector('#titulo')
 const data = document.querySelector('#data')
@@ -126,7 +136,7 @@ function enviaModal() {
         }
     });
     participantesModal.innerHTML = `${optionsParticipantes.join(`<br>`)}`
-    
+
     // Seleciona os selects criados dinamicamente
     const selectsCancoes = document.querySelectorAll('#novoSelectCancoes')
     // Cria um array para armazenar as opções selecionadas
