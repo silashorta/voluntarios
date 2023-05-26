@@ -134,7 +134,6 @@ function atualizarCalendario() {
             const monthEvent = parseInt(parts[1]);
     
             if (dia === dayEvent && mes + 1 === monthEvent) {
-              celula.style.textAlign = "center"
               celula.style.fontWeight = "bold";
               celula.style.backgroundColor = "var(--cinza)";
             }

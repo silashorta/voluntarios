@@ -52,6 +52,15 @@ const eventos = [
         "descricao": "Treinamento de Voluntários abençoado",
         "cancoes": [],
         "voluntarios": [],
+    },
+    {
+        "id": 7,
+        "titulo": "Treinamento de Voluntários",
+        "data": "24/01/2023",
+        "horario": "19:00",
+        "descricao": "Teste",
+        "cancoes": [],
+        "voluntarios": [],
     }
     
 ]
