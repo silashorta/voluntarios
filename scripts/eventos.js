@@ -87,7 +87,7 @@ datas.forEach((data) => {
 //Função para filtrar os eventos pelo mes do input
 
 const mesInput = document.querySelector("#mesInput");
-mesInput.addEventListener('click', () => {
+mesInput.addEventListener('change', () => {
     const mesValor = parseInt(mesInput.value) + 1;
 
     const eventosFiltrados = eventos.filter((evento) => {
