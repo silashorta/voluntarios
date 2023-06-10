@@ -7,7 +7,13 @@ for (let i = 0; i < eventos.length; i++) {
     const eventosItem = document.createElement('div')
     eventosItem.id = "eventosItem"
     eventosContainer.className = 'row row-cols-1 row-cols-md-3 g-4'
-    eventosContainer.appendChild(eventosItem)
+
+    const parts = element.data.split('/');
+    const day = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10) - 1;
+    const year = parseInt(parts[2], 10);
+    const dataEventos = new Date(year, month, day);
+
     eventosItem.innerHTML = `
     <div class="container my-4">
         <div class="col">
@@ -28,20 +34,33 @@ for (let i = 0; i < eventos.length; i++) {
         </div>
     </div>
     `
-
-    const parts = element.data.split('/');
-    const day = parseInt(parts[0], 10);
-    const month = parseInt(parts[1], 10) - 1;
-    const year = parseInt(parts[2], 10);
-    const dataEventos = new Date(year, month, day);
-
-    const diaCalendario = document.querySelectorAll(".dia");
-
-    const diaVerificado = diaCalendario[day];
-    if (diaVerificado) {
-        diaVerificado.style.fontWeight = "bold";
-        diaVerificado.style.backgroundColor = "var(--cinza)";
+    // Só exibe o evento de acordo com o mês vigente
+    const mesAtual = new Date()
+    if (month == mesAtual.getMonth()) {
+        eventosContainer.appendChild(eventosItem)
     }
+
+
+    //Lógica para exibir no calendário o dia referente ao evento do mês vigente
+
+    const diaCalendario = document.querySelectorAll(".dia"); // Pega todos os dias do calendário
+
+    const primeiroDiaMes = new Date(year, month, 1); // Supondo que você já tenha definido as variáveis year e month
+
+    const diaSemanaPrimeiroDia = primeiroDiaMes.getDay(); // Obtém o dia da semana (0 - domingo, 1 - segunda-feira, etc.)
+
+    const diasEmBranco = diaSemanaPrimeiroDia; // O número de dias em branco no início do calendário
+
+
+    const diaVerificado = diaCalendario[day + diasEmBranco - 1];
+
+    if (diaVerificado && month == mesAtual.getMonth()) {
+        diaVerificado.classList.add("diaVerificado");
+        diaVerificado.style.backgroundColor = "var(--cinza)"
+        console.log()
+    }
+
+
 
 }
 

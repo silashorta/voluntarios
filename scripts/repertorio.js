@@ -314,15 +314,16 @@ function pesquisar() {
     const nome = input.value.toLowerCase();
 
     const filtrado = cancoes.filter((cancao) =>
-        cancao.id.toString().toLowerCase().includes(nome)
-        || cancao.titulo.toLowerCase().includes(nome)
-        || cancao.subtitulo.toLowerCase().includes(nome)
-        || cancao.interprete.toLowerCase().includes(nome)
-        || cancao.tomFeminino.toLowerCase().includes(nome)
-        || cancao.tomMasculino.toLowerCase().includes(nome)
-        || cancao.andamento.toString().toLowerCase().includes(nome)
-        || cancao.compasso.toLowerCase().includes(nome)
-    );
+    (cancao.id && cancao.id.toString().toLowerCase().includes(nome))
+    || (cancao.titulo && cancao.titulo.toLowerCase().includes(nome))
+    || (cancao.subtitulo && cancao.subtitulo.toLowerCase().includes(nome))
+    || (cancao.interprete && cancao.interprete.toLowerCase().includes(nome))
+    || (cancao.tomFeminino && cancao.tomFeminino.toLowerCase().includes(nome))
+    || (cancao.tomMasculino && cancao.tomMasculino.toLowerCase().includes(nome))
+    || (cancao.andamento && cancao.andamento.toString().toLowerCase().includes(nome))
+    || (cancao.compasso && cancao.compasso.toLowerCase().includes(nome))
+);
+
     table.innerHTML = "";
     insereDadosFiltrados(filtrado);
 }

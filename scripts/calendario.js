@@ -15,6 +15,9 @@ const dataCalendario = new Date(ano, mes, 1);
 // Obter o dia da semana do primeiro dia do mês
 const diaSemana = dataCalendario.getDay();
 
+//
+const mesInput = document.querySelector("#mesInput")
+mesInput.value = mes
 // Criar uma tabela para exibir o calendário
 const calendario = document.createElement('table');
 calendario.className = "table container my-4"

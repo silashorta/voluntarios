@@ -6,7 +6,8 @@ const integrantes = [
         "posicao": "",
         "categoria": "",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": ""
     },
     {
         "id": 1,
@@ -15,7 +16,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Baixo",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21966335595
     },
     {
         "id": 2,
@@ -24,7 +26,8 @@ const integrantes = [
         "posicao": "Líder de Louvor",
         "categoria": "Vocal",
         "categoria2": "",
-        "nascimento": "20/02/1994"
+        "nascimento": "20/02/1994",
+        "telefone": 21968877032
     },
     {
         "id": 3,
@@ -33,7 +36,8 @@ const integrantes = [
         "posicao": "Líder de Eventos",
         "categoria": "Vocal",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21985476946
     },
     {
         "id": 4,
@@ -42,7 +46,8 @@ const integrantes = [
         "posicao": "Líder de Casa",
         "categoria": "Bateria",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21973030596
     },
     {
         "id": 5,
@@ -51,7 +56,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Guitarra",
         "categoria2": "Teclado",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21966576528
     },
     {
         "id": 6,
@@ -60,7 +66,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Violão",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21996818842
     },
     {
         "id": 7,
@@ -69,7 +76,8 @@ const integrantes = [
         "posicao": "Líder de Produção",
         "categoria": "Guitarra",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21974297955
     },
     {
         "id": 8,
@@ -78,7 +86,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Teclado",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21999098813
     },
     {
         "id": 9,
@@ -87,7 +96,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Bateria",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21990660364
     },
     {
         "id": 10,
@@ -96,7 +106,8 @@ const integrantes = [
         "posicao": "LTP",
         "categoria": "Baixo",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 8396227190
     },
     {
         "id": 11,
@@ -105,7 +116,8 @@ const integrantes = [
         "posicao": "Líder de Louvor",
         "categoria": "Vocal",
         "categoria2": "Violão",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21980780735
     },
     {
         "id": 12,
@@ -114,7 +126,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Bateria",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21984171498
     },
     {
         "id": 13,
@@ -123,7 +136,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Vocal",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21974228453
     },
     {
         "id": 14,
@@ -132,7 +146,8 @@ const integrantes = [
         "posicao": "Pastor",
         "categoria": "Vocal",
         "categoria2": "Violão",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21999444822
     },
     {
         "id": 15,
@@ -141,7 +156,8 @@ const integrantes = [
         "posicao": "Pastor",
         "categoria": "Vocal",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21999866817
     },
     {
         "id": 16,
@@ -150,7 +166,8 @@ const integrantes = [
         "posicao": "Líder de Produção",
         "categoria": "Baixo",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21979845011
     },
     {
         "id": 17,
@@ -159,7 +176,8 @@ const integrantes = [
         "posicao": "Líder de Louvor",
         "categoria": "Teclado",
         "categoria2": "",
-        "nascimento": "13/06/1988"
+        "nascimento": "13/06/1988",
+        "telefone": 21968840132
     },
     {
         "id": 18,
@@ -168,7 +186,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Vocal",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21967535612
     },
     {
         "id": 19,
@@ -177,7 +196,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Bateria",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21968708032
     },
     {
         "id": 20,
@@ -186,7 +206,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Vocal",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21993072428
     },
     {
         "id": 21,
@@ -195,7 +216,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Vocal",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 21996972752
     },
     {
         "id": 22,
@@ -204,7 +226,8 @@ const integrantes = [
         "posicao": "Voluntário",
         "categoria": "Bateria",
         "categoria2": "",
-        "nascimento": ""
+        "nascimento": "",
+        "telefone": 9183203754
     }
 ]
 

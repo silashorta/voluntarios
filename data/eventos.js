@@ -61,7 +61,17 @@ const eventos = [
         "descricao": "Teste",
         "cancoes": [],
         "voluntarios": [],
+    },
+    {
+        "id": 8,
+        "titulo": "Treinamento de Voluntários",
+        "data": "20/06/2023",
+        "horario": "19:00",
+        "descricao": "Teste Junho",
+        "cancoes": [],
+        "voluntarios": [],
     }
+    
     
 ]
 export default eventos;
