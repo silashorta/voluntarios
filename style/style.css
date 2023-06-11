@@ -132,7 +132,7 @@ pre{
     background-color: var(--preto);
     color: var(--branco);
     font-family: var(--opensans);
-    height: 200px;
+    height: auto;
 }
 
 .card_item{
